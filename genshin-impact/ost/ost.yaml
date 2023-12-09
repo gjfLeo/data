@@ -1,0 +1,178 @@
+# yaml-language-server: $schema=./schema.json
+albums:
+  - name: 风与异乡人
+    nameEn: Le Vent et les Enfants des étoiles
+    releaseDate: 2020-06-19
+    songs: []
+  - name: 风与牧歌之城
+    nameEn: City of Winds and Idylls
+    releaseDate: 2020-09-28
+    discs:
+      - name: 风与牧歌之城
+        nameEn: City of Winds and Idylls
+        songs: []
+      - name: 蒲公英的国度
+        nameEn: The Horizon of Dandelion
+        songs: []
+      - name: 蒙德战记
+        nameEn: Saga of the West Wind
+        songs: []
+  - name: 皎月云间之梦
+    nameEn: Jade Moon Upon a Sea of Clouds
+    releaseDate: 2020-11-06
+    discs:
+      - name: 琉璃明月照海平
+        nameEn: Glazed Moon Over the Tides
+        songs: []
+      - name: 山巅清心云间月
+        nameEn: Shimmering Sea of Clouds and Moonlight
+        songs: []
+      - name: 璃月鏖战录
+        nameEn: Battles of Liyue
+        songs: []
+  - name: 闪耀的群星
+    nameEn: The Stellar Moments
+    releaseDate: 2021-02-04
+    songs: []
+  - name: 漩涡、落星与冰山
+    nameEn: Vortex of Legends
+    releaseDate: 2021-04-12
+    songs: []
+  - name: 珍珠之歌
+    nameEn: The Shimmering Voyage
+    releaseDate: 2021-07-19
+    discs:
+      - name: 海岛童话
+        nameEn: Fairytale of the Isles
+        songs: []
+      - name: 烁烁明星
+        nameEn: Blazing Stars
+        songs: []
+      - name: 激流与岩壑
+        nameEn: Roar of the Formidable
+        songs: []
+      - name: 陌客的旅途
+        nameEn: A Stranger's Sojourn
+        songs: []
+  - name: 寂远无妄之国
+    nameEn: Realm of Tranquil Eternity
+    releaseDate: 2021-09-22
+    discs:
+      - name: 稻光与雷樱的土地
+        nameEn: Sakura and Violet Thunder
+        songs: []
+      - name: 浮世之枯荣
+        nameEn: Stories of the Floating World
+        songs: []
+      - name: 稻妻征战记
+        nameEn: Battles of Inazuma
+        songs: []
+  - name: 闪耀的群星2
+    nameEn: The Stellar Moments Vol. 2
+    releaseDate: 2022-01-26
+    songs: []
+  - name: 佚落迁忘之岛
+    nameEn: Islands of the Lost and Forgotten
+    releaseDate: 2022-04-13
+    discs:
+      - name: 遗忘与冥思的岛屿
+        nameEn: Isles of Serenity and Amnesia
+        songs: []
+      - name: 海渊之下
+        nameEn: Beneath the Abyssal Depth
+        songs: []
+      - name: 稻妻征战记2
+        nameEn: Battles of Inazuma 2
+        songs: []
+  - name: 千岩旷望
+    nameEn: Millelith's Watch
+    releaseDate: 2022-06-22
+    discs:
+      - name: 山嶂参差
+        nameEn: Wrinkled Peaks
+        songs: []
+      - name: 隅谷渊沉
+        nameEn: Underground Adventures
+        songs: []
+      - name: 戈剑铿然
+        nameEn: Battles of the Chasm
+        songs: []
+  - name: 珍珠之歌2
+    nameEn: The Shimmering Voyage Vol. 2
+    releaseDate: 2022-08-15
+    discs:
+      - name: 幻世浮生
+        nameEn: A Vagrant Breeze
+        songs: []
+      - name: 海岛奇想曲
+        nameEn: Fantasia of the Isles
+        songs: []
+      - name: 世路风波
+        nameEn: A Turbulent Peregrination
+        songs: []
+  - name: 流星的轨迹
+    nameEn: Footprints of the Traveler
+    releaseDate: 2022-09-20
+    songs: []
+  - name: 智妙明论之林
+    nameEn: Forest of Jnana and Vidya
+    releaseDate: 2022-10-20
+    discs:
+      - name: 掩冉众叶的居所
+        nameEn: Dwelling Where Everlasting Spring Abide
+        songs: []
+      - name: 奥秘栖隐的林泽
+        nameEn: Woods, Rivers and Mysteries
+        songs: []
+      - name: 死生流转真如
+        nameEn: Eternal Antagonism Between Life and Death
+        songs: []
+      - name: 须弥斗战篇
+        nameEn: Battles of Sumeru
+        songs: []
+  - name: 闪耀的群星3
+    nameEn: The Stellar Moments Vol. 3
+    releaseDate: 2023-01-10
+    songs: []
+  - name: 啁哳流变之砂
+    nameEn: The Unfathomable Sand Dunes
+    releaseDate: 2023-04-19
+    discs: 
+      - name: 风沙往事
+        nameEn: Sandstorm Remembrances
+        songs: []
+      - name: 沙海的离民
+        nameEn: Desert Exodus
+        songs: []
+      - name: 须弥斗战篇2
+        nameEn: Battles of Sumeru 2
+        songs: []
+  - name: 珍珠之歌3
+    nameEn: The Shimmering Voyage Vol. 3
+    releaseDate: 2023-07-26
+    discs:
+      - name: 欢游，或流幻的梦景
+        nameEn: La liesse, ou le fluide mirage des songes
+        songs: []
+      - name: 世智诸相
+        nameEn: Tathya-Samvrti
+        songs: []
+      - name: 遐籁的轶诗
+        nameEn: Anecdotes of Reverie
+        songs: []
+  - name: 白露澈明之泉
+    nameEn: Fountain of Belleau
+    releaseDate: 2023-10-02
+    discs:
+      - name: 律典的颂诗
+        nameEn: Chanson of Justice and Impartiality
+        songs: []
+      - name: 荣辉的咏叙
+        nameEn: Arioso of Belle Epoque
+        songs: []
+      - name: 幽泉潺湲之歌
+        nameEn: Chapelloise of Trickling Springs
+        songs: []
+      - name: 枫丹战记
+        nameEn: La bataille de Fontaine
+        songs: []
