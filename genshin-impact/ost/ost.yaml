@@ -3,7 +3,108 @@ albums:
   - name: 风与异乡人
     nameEn: Le Vent et les Enfants des étoiles
     releaseDate: 2020-06-19
-    songs: []
+    songs:
+      - index: 1
+        name: 原神
+        nameEn: Genshin Impact Main Theme
+        usages:
+          - type: UI
+            description: 08:00~17:00登录界面背景音乐
+      - index: 2
+        name: 晨曦酒庄
+        nameEn: Dawn Winery Theme
+        usages:
+          - type: WORLD
+            area: 蒙德 晨曦酒庄
+            time: DAYTIME
+      - index: 3
+        name: 甜美的微笑
+        nameEn: A Sweet Smile
+        usages:
+          - type: DIALOG
+            quest: 魔神任务 序章 第一幕 捕风的异乡人
+            description: 安柏首次出场
+          - type: DIALOG
+            quest: 传说任务 小兔之章 第一幕 风、勇气和翅膀
+            description: 安柏首次出场
+      - index: 4
+        name: 风暴，高塔与圣地
+        nameEn: A Storm, A Spire, and A Sanctum (Dvalin's Nest)
+        usages:
+          - type: WORLD
+            area: 蒙德 风龙废墟
+      - index: 5
+        name: 终天的闭幕曲
+        nameEn: Caelestinum Finale Termini
+        usages:
+          - type: BOSS_BATTLE
+            domain: 深入风龙废墟
+            boss: 风魔龙·特瓦林
+      - index: 6
+        name: 孤独的旅居
+        nameEn: Lone Sojourner
+        usages:
+          - type: WORLD
+            area: 蒙德 晨曦酒庄
+            time: NIGHTTIME
+      - index: 7
+        name: 蒙德的一日
+        nameEn: A Day in Mondstadt
+        usages:
+          - type: WORLD
+            area: 蒙德 蒙德城
+            time: DAYTIME
+            timeDuration: 06:00 ~ 17:00
+      - index: 8
+        name: 梦之咏叹
+        nameEn: Dream Aria (Genshin Impact Main Theme Var.)
+        usages:
+          - type: UI
+            description: 19:00~04:30登录界面背景音乐
+      - index: 9
+        name: 青空
+        nameEn: Pure Sky
+        usages:
+          - type: WORLD
+            area: 蒙德
+      - index: 10
+        name: 平原的边际
+        nameEn: The Edge of the Prairie
+        usages:
+          - type: WORLD
+            area: 蒙德 无名小岛
+          - type: WORLD
+            area: 蒙德
+            weather: RAIN
+      - index: 11
+        name: 特瓦林与杜林
+        nameEn: A Tale of Two Dragons
+        usages:
+          - type: VIDEO
+            videoType: CG
+            quest: 魔神任务 序章 第二幕 为了没有眼泪的明天
+            description: 在风神像处聆听温迪的演奏
+      - index: 12
+        name: 战斗的秘仪
+        nameEn: Rite of Battle
+        usages:
+          - type: WORLD_BATTLE
+            area: 蒙德
+      - index: 13
+        name: 骑士的义举
+        nameEn: Knighthood Excellence
+      - index: 14
+        name: 快乐的旅程
+        nameEn: Happy Journey
+      - index: 15
+        name: 捕风的异乡人
+        nameEn: The Wind Catcher from a Foreign Land
+        usages:
+          - type: VIDEO
+            videoType: PV
+            video:
+              name: 序章PV：捕风的异乡人
+              bilibiliBv: BV1P4411T73c
   - name: 风与牧歌之城
     nameEn: City of Winds and Idylls
     releaseDate: 2020-09-28
