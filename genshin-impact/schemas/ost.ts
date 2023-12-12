@@ -29,7 +29,10 @@ interface GenshinImpactOSTSong {
   index: number;
   name: string;
   nameEn: string;
+  credits?: GenshinImpactOSTSongCredits;
   usages?: GenshinImpactOSTSongUsage[];
+  notes?: string | string[];
+  related?: string[];
 }
 
 type GenshinImpactOSTSongUsage =
@@ -57,7 +60,7 @@ interface GenshinImpactOSTSongUsageBossBattle {
 }
 interface GenshinImpactOSTSongUsageDialog {
   type: "DIALOG";
-  quest?: GenshinImpactOSTSongUsageQuest
+  quest?: GenshinImpactOSTSongUsageQuest;
   description?: string;
 }
 interface GenshinImpactOSTSongUsageUI {
@@ -72,6 +75,46 @@ interface GenshinImpactOSTSongUsageVideo {
   video?: {
     name: string;
     bilibiliBv: string;
-  }
+  };
 }
 type GenshinImpactOSTSongUsageQuest = string;
+
+interface GenshinImpactOSTSongCredits {
+  /** 作曲 */
+  composer?: GenshinImpactOSTSongCreditInfo;
+  /** 作词 */
+  lyricist?: GenshinImpactOSTSongCreditInfo;
+  /** 编曲 */
+  arranger?: GenshinImpactOSTSongCreditInfo;
+
+  /** 指挥 */
+  conductor?: string;
+  /** 乐队 */
+  orchestra?: string;
+  /** 乐队配器 */
+  orchestrator?: string;
+  /** 演唱 */
+  voice?: string;
+  /** 演唱 */
+  vocalArtist?: string;
+  /** 合唱 */
+  choir?: GenshinImpactOSTSongCreditInfo;
+
+  /** 钢琴 */
+  piano?: string;
+  /** 原声吉他 */
+  acousticGuitar?: string;
+  /** 电吉他 */
+  electricGuitar?: string;
+  /** 二胡 */
+  erhu?: string;
+  /** 古筝 */
+  guzheng?: string;
+  /** 尺八 */
+  shakuhachi?: string;
+  /** 玻璃琴 */
+  glassHarmonica?: string;
+  /** 乐杯 */
+  glassHarp?: string;
+}
+type GenshinImpactOSTSongCreditInfo = string | string[];

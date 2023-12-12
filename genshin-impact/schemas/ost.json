@@ -46,6 +46,103 @@
                                                             "nameEn": {
                                                                 "type": "string"
                                                             },
+                                                            "credits": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "composer": {
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "lyricist": {
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "arranger": {
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "conductor": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "orchestra": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "orchestrator": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "voice": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "vocalArtist": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "choir": {
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "piano": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "acousticGuitar": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "electricGuitar": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "erhu": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "guzheng": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "shakuhachi": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "glassHarmonica": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "glassHarp": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "additionalProperties": false
+                                                            },
                                                             "usages": {
                                                                 "type": "array",
                                                                 "items": {
@@ -199,6 +296,25 @@
                                                                         }
                                                                     ]
                                                                 }
+                                                            },
+                                                            "notes": {
+                                                                "anyOf": [
+                                                                    {
+                                                                        "type": "string"
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "related": {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                }
                                                             }
                                                         },
                                                         "required": [
@@ -252,6 +368,103 @@
                                                 },
                                                 "nameEn": {
                                                     "type": "string"
+                                                },
+                                                "credits": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "composer": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "lyricist": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "arranger": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "conductor": {
+                                                            "type": "string"
+                                                        },
+                                                        "orchestra": {
+                                                            "type": "string"
+                                                        },
+                                                        "orchestrator": {
+                                                            "type": "string"
+                                                        },
+                                                        "voice": {
+                                                            "type": "string"
+                                                        },
+                                                        "vocalArtist": {
+                                                            "type": "string"
+                                                        },
+                                                        "choir": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "piano": {
+                                                            "type": "string"
+                                                        },
+                                                        "acousticGuitar": {
+                                                            "type": "string"
+                                                        },
+                                                        "electricGuitar": {
+                                                            "type": "string"
+                                                        },
+                                                        "erhu": {
+                                                            "type": "string"
+                                                        },
+                                                        "guzheng": {
+                                                            "type": "string"
+                                                        },
+                                                        "shakuhachi": {
+                                                            "type": "string"
+                                                        },
+                                                        "glassHarmonica": {
+                                                            "type": "string"
+                                                        },
+                                                        "glassHarp": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "additionalProperties": false
                                                 },
                                                 "usages": {
                                                     "type": "array",
@@ -405,6 +618,25 @@
                                                                 "additionalProperties": false
                                                             }
                                                         ]
+                                                    }
+                                                },
+                                                "notes": {
+                                                    "anyOf": [
+                                                        {
+                                                            "type": "string"
+                                                        },
+                                                        {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "related": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "string"
                                                     }
                                                 }
                                             },

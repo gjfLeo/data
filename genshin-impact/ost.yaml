@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=./schema.json
+# yaml-language-server: $schema=./schemas/ost.json
 albums:
   - name: 风与异乡人
     nameEn: Le Vent et les Enfants des étoiles
@@ -151,7 +151,18 @@ albums:
         songs: []
       - name: 激流与岩壑
         nameEn: Roar of the Formidable
-        songs: []
+        songs:
+          - index: 1
+            name: 不冻的激浪
+            nameEn: All-Conquering Tide
+            credits:
+              composer: 陈致逸
+              orchestra: 国际首席爱乐乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD_BATTLE
+                area: 蒙德 龙脊雪山
       - name: 陌客的旅途
         nameEn: A Stranger's Sojourn
         songs: []
@@ -178,7 +189,109 @@ albums:
     discs:
       - name: 遗忘与冥思的岛屿
         nameEn: Isles of Serenity and Amnesia
-        songs: []
+        songs:
+          - index: 23
+            name: 物是人非
+            nameEn: When All Has Elapsed
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+          - index: 24
+            name: 潸怅的幽影
+            nameEn: Sorrows of Strays
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              shakuhachi: 顾剑楠
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+          - index: 25
+            name: 雾锁烟迷
+            nameEn: Misty Truth
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+            notes:
+              - 不规则拍子（7+6）
+          - index: 26
+            name: 弭节徘徊
+            nameEn: Wandering in the Mist
+            credits:
+              composer: 陈致逸
+              arranger: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+            notes:
+              - 氛围音乐
+          - index: 27
+            name: 曲径探幽
+            nameEn: Walking a Pathless Path
+            credits:
+              composer: 陈致逸
+              arranger: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+            notes:
+              - 在《弭节徘徊》的基础上加入了钢琴
+            related:
+              - 弭节徘徊
+          - index: 28
+            name: 褪淡的余忆
+            nameEn: Fading Memories
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+          - index: 29
+            name: 温情的遥忆
+            nameEn: A Memorable Fancy
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                area: 稻妻 鹤观
+            notes:
+              - 《阿瑠的歌》纯音乐版本，和弦有差别
+            related:
+              - 阿瑠的歌
+          - index: 30
+            name: 阿瑠的歌
+            nameEn: Ruu's Melody
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              voice: 林禾
+              piano: 陈致逸
+            usages:
+              - type: DIALOG
+                quest: 世界任务 雾海纪行 日轮与菅名山
+            notes:
+              - 童声演唱
+            related:
+              - 温情的遥忆
       - name: 海渊之下
         nameEn: Beneath the Abyssal Depth
         songs: []
@@ -238,7 +351,7 @@ albums:
   - name: 啁哳流变之砂
     nameEn: The Unfathomable Sand Dunes
     releaseDate: 2023-04-19
-    discs: 
+    discs:
       - name: 风沙往事
         nameEn: Sandstorm Remembrances
         songs: []
@@ -273,7 +386,70 @@ albums:
         songs: []
       - name: 幽泉潺湲之歌
         nameEn: Chapelloise of Trickling Springs
-        songs: []
+        songs:
+          - index: 29
+            name: 水仙的茶会
+            nameEn: Nymphs' Tea Party
+            credits:
+              composer: 苑迪萌
+              arranger: 苑迪萌
+              glassHarmonica: Alasdair Malloy
+              glassHarp: Alasdair Malloy
+            related:
+              - 镜中之梦
+          - index: 30
+            name: 镜中之梦
+            nameEn: Dream Through the Looking-Glass
+            credits:
+              composer: 苑迪萌
+              arranger: 苑迪萌
+              conductor: Robert Ziegler
+              orchestra: 伦敦交响乐团
+              glassHarmonica: Alasdair Malloy
+              glassHarp: Alasdair Malloy
+            related:
+              - 水仙的茶会
       - name: 枫丹战记
         nameEn: La bataille de Fontaine
         songs: []
+
+  - name: 「飞彩镌流年」游戏原声EP专辑
+    nameEn: ""
+    releaseDate: 2022-01-15
+    songs:
+      - index: 1
+        name: 神女劈观·唤情
+        nameEn: Devastation and Redemption
+        credits:
+          composer: 陈致逸
+          lyricist: 豆子
+          arranger: 苑迪萌
+          vocalArtist: 杨扬
+          erhu: 马稼骏
+          guzheng: 王宇宸
+          electricGuitar: 苑迪萌
+          orchestra: 龙之艺交响乐团
+        usages:
+          - type: VIDEO
+            videoType: CG
+            quest: 魔神任务 间章 第一幕 风起鹤归
+  - name: 「轻涟」游戏原声EP专辑
+    nameEn: ""
+    releaseDate: 2023-11-13
+    songs:
+      - index: 1
+        name: 轻涟
+        nameEn: La vaguelette
+        credits:
+          lyricist: [哈尼, 顶柳, 三宝]
+          composer: 苑迪萌
+          arranger: 苑迪萌
+          vocalArtist: Cécilia Cara
+          acousticGuitar: 尤裴佳
+          electricGuitar: 苑迪萌
+          choir: [唐卫青, 何晓楠, 张怡, 柴锦斐, 汤琳, 陈瑞, 喻佳星, 王碧华]
+          orchestra: 龙之艺交响乐团
+        usages:
+          - type: VIDEO
+            videoType: CG
+            quest: 传说任务 司颂之章 第一幕 「水的女儿」
