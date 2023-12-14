@@ -74,7 +74,7 @@ interface GenshinImpactOSTSongUsageVideo {
   description?: string;
   video?: {
     name: string;
-    bilibiliBv: string;
+    bilibiliBv?: string;
   };
 }
 type GenshinImpactOSTSongUsageQuest = string;
@@ -99,6 +99,8 @@ interface GenshinImpactOSTSongCredits {
   vocalArtist?: string;
   /** 合唱 */
   choir?: GenshinImpactOSTSongCreditInfo;
+  /** 弦乐 */
+  strings?: string;
 
   /** 钢琴 */
   piano?: GenshinImpactOSTSongCreditInfo;

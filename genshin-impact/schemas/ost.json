@@ -116,6 +116,9 @@
                                                                             }
                                                                         ]
                                                                     },
+                                                                    "strings": {
+                                                                        "type": "string"
+                                                                    },
                                                                     "piano": {
                                                                         "anyOf": [
                                                                             {
@@ -375,8 +378,7 @@
                                                                                         }
                                                                                     },
                                                                                     "required": [
-                                                                                        "name",
-                                                                                        "bilibiliBv"
+                                                                                        "name"
                                                                                     ],
                                                                                     "additionalProperties": false
                                                                                 }
@@ -531,6 +533,9 @@
                                                                     }
                                                                 }
                                                             ]
+                                                        },
+                                                        "strings": {
+                                                            "type": "string"
                                                         },
                                                         "piano": {
                                                             "anyOf": [
@@ -791,8 +796,7 @@
                                                                             }
                                                                         },
                                                                         "required": [
-                                                                            "name",
-                                                                            "bilibiliBv"
+                                                                            "name"
                                                                         ],
                                                                         "additionalProperties": false
                                                                     }

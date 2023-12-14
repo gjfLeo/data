@@ -113,25 +113,39 @@ albums:
     discs:
       - name: 风与牧歌之城
         nameEn: City of Winds and Idylls
-        songs: []
+        songs:
+          - index: 24
+            name: 同伴的力量
+            nameEn: Tender Strength
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
       - name: 蒲公英的国度
         nameEn: The Horizon of Dandelion
         songs:
-        - index: 26
-          name: 永恒的回忆
-          nameEn: Eternal Anamnesis (Genshin Impact Main Theme Var.)
-          credits:
-            composer: 陈致逸
-            conductor: Robert Ziegler
-            orchestra: 伦敦爱乐乐团
-          usages:
-            - type: VIDEO
-              videoType: PV
-              video:
-                name: 温迪角色PV-「四方之风」
-                bilibiliBv: BV1xk4y117tg
-          related:
-            - 原神
+          - index: 20
+            name: 希望的新一天
+            nameEn: A New Day with Hope
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
+          - index: 26
+            name: 永恒的回忆
+            nameEn: Eternal Anamnesis (Genshin Impact Main Theme Var.)
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
+            usages:
+              - type: VIDEO
+                videoType: PV
+                video:
+                  name: 温迪角色PV-「四方之风」
+                  bilibiliBv: BV1xk4y117tg
+            related:
+              - 原神
       - name: 蒙德战记
         nameEn: Saga of the West Wind
         songs: []
@@ -142,34 +156,181 @@ albums:
       - name: 琉璃明月照海平
         nameEn: Glazed Moon Over the Tides
         songs:
-        - index: 2
-          name: 杯中明月
-          nameEn: Moon in One's Cup
-          credits:
-            composer: 陈致逸
-            conductor: 张洁敏
-            orchestra: 上海交响乐团
-            orchestrator: 陈致逸
-            guzheng: [陆莎莎, 赵墨佳]
-            pipa: 施文卿
-          usages:
-            - type: WORLD
-              time: DAYTIME
-              area: 璃月 璃月港
+          - index: 1
+            name: 璃月
+            nameEn: Liyue
+            usages:
+              - type: WORLD
+                time: DAYTIME
+                area: 璃月 璃月港
+          - index: 2
+            name: 杯中明月
+            nameEn: Moon in One's Cup
+            credits:
+              composer: 陈致逸
+              conductor: 张洁敏
+              orchestra: 上海交响乐团
+              orchestrator: 陈致逸
+              guzheng: [陆莎莎, 赵墨佳]
+              pipa: 施文卿
+            usages:
+              - type: WORLD
+                time: DAYTIME
+                area: 璃月 璃月港
+          - index: 3
+            name: 商港的闲暇
+            nameEn: Relaxation in Liyue
+            usages:
+              - type: WORLD
+                timeDuration: 17:00 ~ 18:30
+                area: 璃月 璃月港
+          - index: 4
+            name: 环佩凭栏望千帆
+            nameEn: Maiden's Longing
+            usages:
+              - type: WORLD
+                area: 璃月 云来海
+              - type: VIDEO
+                videoType: PV
+                video:
+                  name: 甘雨角色PV-「璃月港的一夜」
+          - index: 5
+            name: 璃月的日出
+            nameEn: Sun Rises in Liyue
+            usages:
+              - type: WORLD
+                time: NIGHTTIME
+                area: 璃月 璃月港
+          - index: 6
+            name: 晚安，璃月
+            nameEn: Good Night, Liyue
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
+              orchestrator: 陈致逸
+            usages:
+              - type: WORLD
+                timeDuration: 05:00 ~ 07:00
+                area: 璃月 璃月港
+          - index: 7
+            name: 璃月的一日将尽
+            nameEn: Call It a Day in Liyue
+            usages:
+              - type: WORLD
+                time: NIGHTTIME
+                area: 璃月 璃月港
+          - index: 8
+            name: 璃月的晴空
+            nameEn: Clear Sky Over Liyue
+            usages:
+              - type: WORLD
+                time: NIGHTTIME
+                area: 璃月 璃月港
+              - type: WORLD
+                area: 璃月 云来海
+          - index: 9
+            name: 晶莹可掇
+            nameEn: A Transparent Moon
+            credits:
+              composer: 陈致逸
+              conductor: 张洁敏
+              orchestra: 上海交响乐团
+              orchestrator: 陈致逸
+            usages:
+              - type: WORLD
+                area: 璃月 琉璃亭
+              - type: WORLD
+                area: 璃月 新月轩
+          - index: 10
+            name: 北国的宝库
+            nameEn: Treasury From the Northland
+            usages:
+              - type: WORLD
+                area: 璃月 北国银行
+          - index: 11
+            name: 品茗尝清心
+            nameEn: Cozy Leisure Time
+          - index: 12
+            name: 美梦抚归人
+            nameEn: Sojourner's Sweet Dream
+          - index: 13
+            name: 逶迤绿水长
+            nameEn: Winding River
+          - index: 14
+            name: 轻波微荡
+            nameEn: Mild Waves
+          - index: 15
+            name: 钓客漫歌
+            nameEn: Rhythm Amidst the Reeds
+          - index: 16
+            name: 源流汇响
+            nameEn: Flows of Jade-Like Water
+          - index: 17
+            name: 幽谷多芳草
+            nameEn: Blossoms Across the Valley
+          - index: 18
+            name: 多情东逝
+            nameEn: Flow of Mildness
+          - index: 19
+            name: 山阴漫步
+            nameEn: Stroll in the Shadows
+          - index: 20
+            name: 古道笛声
+            nameEn: Melodious Flute
+          - index: 21
+            name: 清昼细雨
+            nameEn: Gentle Rain
+          - index: 22
+            name: 竹林的轻语
+            nameEn: Vague Whispers
+          - index: 23
+            name: 不复回的传说
+            nameEn: Legends Swept Away
+          - index: 24
+            name: 归客的轻歌
+            nameEn: Joy of Returning
+          - index: 25
+            name: 离原之草
+            nameEn: Loner's Departure
+          - index: 26
+            name: 原上狐鸣
+            nameEn: Foxes at Play
+          - index: 27
+            name: 怀乡的原野
+            nameEn: Plain of Nostalgia
+          - index: 28
+            name: 希望的明日
+            nameEn: Another Hopeful Tomorrow
+          - index: 29
+            name: 小小的光
+            nameEn: This Little Light of Mine
+          - index: 30
+            name: 宽怀的传说
+            nameEn: Legend of Redemption
+          - index: 31
+            name: 暧暧含光
+            nameEn: Hazy Light
+          - index: 32
+            name: 潮汐浮梦
+            nameEn: Scattered Amongst the Tides
+          - index: 33
+            name: 随海风而来
+            nameEn: Rhythms From the Conch
       - name: 山巅清心云间月
         nameEn: Shimmering Sea of Clouds and Moonlight
         songs:
-        - index: 2
-          name: 不再年轻的村庄
-          nameEn: The Fading Stories
-          credits:
-            composer: 陈致逸
-            orchestrator: 陈致逸
-            piano: 陈致逸
-          usages:
-            - type: WORLD
-              time: NIGHTTIME
-              area: 璃月 轻策庄
+          - index: 2
+            name: 不再年轻的村庄
+            nameEn: The Fading Stories
+            credits:
+              composer: 陈致逸
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              - type: WORLD
+                time: NIGHTTIME
+                area: 璃月 轻策庄
       - name: 璃月鏖战录
         nameEn: Battles of Liyue
         songs: []
@@ -180,7 +341,15 @@ albums:
   - name: 漩涡、落星与冰山
     nameEn: Vortex of Legends
     releaseDate: 2021-04-12
-    songs: []
+    songs:
+      - index: 1
+        name: 雪掩的往事
+        nameEn: Snow-Buried Tales
+        credits:
+          composer: 陈致逸
+          orchestrator: 陈致逸
+          piano: 陈致逸
+          strings: 国际首席爱乐乐团
   - name: 珍珠之歌
     nameEn: The Shimmering Voyage
     releaseDate: 2021-07-19
@@ -190,7 +359,16 @@ albums:
         songs: []
       - name: 烁烁明星
         nameEn: Blazing Stars
-        songs: []
+        songs:
+          - index: 23
+            name: 蒲苇如丝
+            nameEn: Lovers' Oath
+            credits:
+              composer: 陈致逸
+              conductor: 张洁敏
+              orchestra: 上海交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
       - name: 激流与岩壑
         nameEn: Roar of the Formidable
         songs:
@@ -205,6 +383,10 @@ albums:
             usages:
               - type: WORLD_BATTLE
                 area: 蒙德 龙脊雪山
+          - index: 2
+            name: 永无谢幕的演出
+            nameEn: Never-Ending Performance
+
       - name: 陌客的旅途
         nameEn: A Stranger's Sojourn
         songs: []
