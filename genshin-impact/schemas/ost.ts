@@ -101,20 +101,22 @@ interface GenshinImpactOSTSongCredits {
   choir?: GenshinImpactOSTSongCreditInfo;
 
   /** 钢琴 */
-  piano?: string;
+  piano?: GenshinImpactOSTSongCreditInfo;
   /** 原声吉他 */
-  acousticGuitar?: string;
+  acousticGuitar?: GenshinImpactOSTSongCreditInfo;
   /** 电吉他 */
-  electricGuitar?: string;
+  electricGuitar?: GenshinImpactOSTSongCreditInfo;
   /** 二胡 */
-  erhu?: string;
+  erhu?: GenshinImpactOSTSongCreditInfo;
   /** 古筝 */
-  guzheng?: string;
+  guzheng?: GenshinImpactOSTSongCreditInfo;
+  /** 琵琶 */
+  pipa?: GenshinImpactOSTSongCreditInfo;
   /** 尺八 */
-  shakuhachi?: string;
+  shakuhachi?: GenshinImpactOSTSongCreditInfo;
   /** 玻璃琴 */
-  glassHarmonica?: string;
+  glassHarmonica?: GenshinImpactOSTSongCreditInfo;
   /** 乐杯 */
-  glassHarp?: string;
+  glassHarp?: GenshinImpactOSTSongCreditInfo;
 }
 type GenshinImpactOSTSongCreditInfo = string | string[];

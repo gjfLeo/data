@@ -117,28 +117,121 @@
                                                                         ]
                                                                     },
                                                                     "piano": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "acousticGuitar": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "electricGuitar": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "erhu": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "guzheng": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "pipa": {
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "shakuhachi": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "glassHarmonica": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     },
                                                                     "glassHarp": {
-                                                                        "type": "string"
+                                                                        "anyOf": [
+                                                                            {
+                                                                                "type": "string"
+                                                                            },
+                                                                            {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 "additionalProperties": false
@@ -440,28 +533,121 @@
                                                             ]
                                                         },
                                                         "piano": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "acousticGuitar": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "electricGuitar": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "erhu": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "guzheng": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "pipa": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "shakuhachi": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "glassHarmonica": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         },
                                                         "glassHarp": {
-                                                            "type": "string"
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     "additionalProperties": false

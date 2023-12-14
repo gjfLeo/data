@@ -61,6 +61,8 @@ albums:
         usages:
           - type: UI
             description: 19:00~04:30登录界面背景音乐
+        related:
+          - 原神
       - index: 9
         name: 青空
         nameEn: Pure Sky
@@ -114,7 +116,22 @@ albums:
         songs: []
       - name: 蒲公英的国度
         nameEn: The Horizon of Dandelion
-        songs: []
+        songs:
+        - index: 26
+          name: 永恒的回忆
+          nameEn: Eternal Anamnesis (Genshin Impact Main Theme Var.)
+          credits:
+            composer: 陈致逸
+            conductor: Robert Ziegler
+            orchestra: 伦敦爱乐乐团
+          usages:
+            - type: VIDEO
+              videoType: PV
+              video:
+                name: 温迪角色PV-「四方之风」
+                bilibiliBv: BV1xk4y117tg
+          related:
+            - 原神
       - name: 蒙德战记
         nameEn: Saga of the West Wind
         songs: []
@@ -124,10 +141,35 @@ albums:
     discs:
       - name: 琉璃明月照海平
         nameEn: Glazed Moon Over the Tides
-        songs: []
+        songs:
+        - index: 2
+          name: 杯中明月
+          nameEn: Moon in One's Cup
+          credits:
+            composer: 陈致逸
+            conductor: 张洁敏
+            orchestra: 上海交响乐团
+            orchestrator: 陈致逸
+            guzheng: [陆莎莎, 赵墨佳]
+            pipa: 施文卿
+          usages:
+            - type: WORLD
+              time: DAYTIME
+              area: 璃月 璃月港
       - name: 山巅清心云间月
         nameEn: Shimmering Sea of Clouds and Moonlight
-        songs: []
+        songs:
+        - index: 2
+          name: 不再年轻的村庄
+          nameEn: The Fading Stories
+          credits:
+            composer: 陈致逸
+            orchestrator: 陈致逸
+            piano: 陈致逸
+          usages:
+            - type: WORLD
+              time: NIGHTTIME
+              area: 璃月 轻策庄
       - name: 璃月鏖战录
         nameEn: Battles of Liyue
         songs: []
@@ -290,8 +332,6 @@ albums:
                 quest: 世界任务 雾海纪行 日轮与菅名山
             notes:
               - 童声演唱
-            related:
-              - 温情的遥忆
       - name: 海渊之下
         nameEn: Beneath the Abyssal Depth
         songs: []
@@ -395,8 +435,6 @@ albums:
               arranger: 苑迪萌
               glassHarmonica: Alasdair Malloy
               glassHarp: Alasdair Malloy
-            related:
-              - 镜中之梦
           - index: 30
             name: 镜中之梦
             nameEn: Dream Through the Looking-Glass
