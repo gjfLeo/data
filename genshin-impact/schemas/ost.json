@@ -37,7 +37,7 @@
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "index": {
+                                                            "number": {
                                                                 "type": "number"
                                                             },
                                                             "name": {
@@ -96,148 +96,21 @@
                                                                     },
                                                                     "orchestrator": {
                                                                         "type": "string"
-                                                                    },
-                                                                    "voice": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "vocalArtist": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "choir": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "strings": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "piano": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "acousticGuitar": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "electricGuitar": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "erhu": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "guzheng": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "pipa": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "shakuhachi": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "glassHarmonica": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "glassHarp": {
-                                                                        "anyOf": [
-                                                                            {
-                                                                                "type": "string"
-                                                                            },
-                                                                            {
-                                                                                "type": "array",
-                                                                                "items": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            }
-                                                                        ]
                                                                     }
                                                                 },
-                                                                "additionalProperties": false
+                                                                "additionalProperties": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "string"
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
                                                             },
                                                             "usages": {
                                                                 "type": "array",
@@ -388,9 +261,38 @@
                                                                                 "videoType"
                                                                             ],
                                                                             "additionalProperties": false
+                                                                        },
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string",
+                                                                                    "const": "SPINCRYSTAL"
+                                                                                },
+                                                                                "number": {
+                                                                                    "type": "number"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "type",
+                                                                                "number"
+                                                                            ],
+                                                                            "additionalProperties": false
                                                                         }
                                                                     ]
                                                                 }
+                                                            },
+                                                            "links": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "qqId": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "necId": {
+                                                                        "type": "number"
+                                                                    }
+                                                                },
+                                                                "additionalProperties": false
                                                             },
                                                             "notes": {
                                                                 "anyOf": [
@@ -413,9 +315,12 @@
                                                             }
                                                         },
                                                         "required": [
-                                                            "index",
+                                                            "number",
                                                             "name",
-                                                            "nameEn"
+                                                            "nameEn",
+                                                            "credits",
+                                                            "usages",
+                                                            "links"
                                                         ],
                                                         "additionalProperties": false
                                                     }
@@ -455,7 +360,7 @@
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "index": {
+                                                "number": {
                                                     "type": "number"
                                                 },
                                                 "name": {
@@ -514,148 +419,21 @@
                                                         },
                                                         "orchestrator": {
                                                             "type": "string"
-                                                        },
-                                                        "voice": {
-                                                            "type": "string"
-                                                        },
-                                                        "vocalArtist": {
-                                                            "type": "string"
-                                                        },
-                                                        "choir": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "strings": {
-                                                            "type": "string"
-                                                        },
-                                                        "piano": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "acousticGuitar": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "electricGuitar": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "erhu": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "guzheng": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "pipa": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "shakuhachi": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "glassHarmonica": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "glassHarp": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
                                                         }
                                                     },
-                                                    "additionalProperties": false
+                                                    "additionalProperties": {
+                                                        "anyOf": [
+                                                            {
+                                                                "type": "string"
+                                                            },
+                                                            {
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 },
                                                 "usages": {
                                                     "type": "array",
@@ -806,9 +584,38 @@
                                                                     "videoType"
                                                                 ],
                                                                 "additionalProperties": false
+                                                            },
+                                                            {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "type": {
+                                                                        "type": "string",
+                                                                        "const": "SPINCRYSTAL"
+                                                                    },
+                                                                    "number": {
+                                                                        "type": "number"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "type",
+                                                                    "number"
+                                                                ],
+                                                                "additionalProperties": false
                                                             }
                                                         ]
                                                     }
+                                                },
+                                                "links": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "qqId": {
+                                                            "type": "string"
+                                                        },
+                                                        "necId": {
+                                                            "type": "number"
+                                                        }
+                                                    },
+                                                    "additionalProperties": false
                                                 },
                                                 "notes": {
                                                     "anyOf": [
@@ -831,9 +638,12 @@
                                                 }
                                             },
                                             "required": [
-                                                "index",
+                                                "number",
                                                 "name",
-                                                "nameEn"
+                                                "nameEn",
+                                                "credits",
+                                                "usages",
+                                                "links"
                                             ],
                                             "additionalProperties": false
                                         }

@@ -26,11 +26,12 @@ interface GenshinImpactOSTDisc {
 }
 
 interface GenshinImpactOSTSong {
-  index: number;
+  number: number;
   name: string;
   nameEn: string;
-  credits?: GenshinImpactOSTSongCredits;
-  usages?: GenshinImpactOSTSongUsage[];
+  credits: GenshinImpactOSTSongCredits;
+  usages: GenshinImpactOSTSongUsage[];
+  links: GenshinImpactOSTSongLinks;
   notes?: string | string[];
   related?: string[];
 }
@@ -41,7 +42,8 @@ type GenshinImpactOSTSongUsage =
   | GenshinImpactOSTSongUsageBossBattle
   | GenshinImpactOSTSongUsageDialog
   | GenshinImpactOSTSongUsageUI
-  | GenshinImpactOSTSongUsageVideo;
+  | GenshinImpactOSTSongUsageVideo
+  | GenshinImpactOSTSongUsageSpincrystal;
 interface GenshinImpactOSTSongUsageWorld {
   type: "WORLD";
   area: string;
@@ -78,14 +80,18 @@ interface GenshinImpactOSTSongUsageVideo {
   };
 }
 type GenshinImpactOSTSongUsageQuest = string;
+interface GenshinImpactOSTSongUsageSpincrystal {
+  type: "SPINCRYSTAL";
+  number: number;
+}
 
 interface GenshinImpactOSTSongCredits {
   /** 作曲 */
-  composer?: GenshinImpactOSTSongCreditInfo;
+  composer?: GenshinImpactOSTSongCreditStaff;
   /** 作词 */
-  lyricist?: GenshinImpactOSTSongCreditInfo;
+  lyricist?: GenshinImpactOSTSongCreditStaff;
   /** 编曲 */
-  arranger?: GenshinImpactOSTSongCreditInfo;
+  arranger?: GenshinImpactOSTSongCreditStaff;
 
   /** 指挥 */
   conductor?: string;
@@ -93,32 +99,12 @@ interface GenshinImpactOSTSongCredits {
   orchestra?: string;
   /** 乐队配器 */
   orchestrator?: string;
-  /** 演唱 */
-  voice?: string;
-  /** 演唱 */
-  vocalArtist?: string;
-  /** 合唱 */
-  choir?: GenshinImpactOSTSongCreditInfo;
-  /** 弦乐 */
-  strings?: string;
 
-  /** 钢琴 */
-  piano?: GenshinImpactOSTSongCreditInfo;
-  /** 原声吉他 */
-  acousticGuitar?: GenshinImpactOSTSongCreditInfo;
-  /** 电吉他 */
-  electricGuitar?: GenshinImpactOSTSongCreditInfo;
-  /** 二胡 */
-  erhu?: GenshinImpactOSTSongCreditInfo;
-  /** 古筝 */
-  guzheng?: GenshinImpactOSTSongCreditInfo;
-  /** 琵琶 */
-  pipa?: GenshinImpactOSTSongCreditInfo;
-  /** 尺八 */
-  shakuhachi?: GenshinImpactOSTSongCreditInfo;
-  /** 玻璃琴 */
-  glassHarmonica?: GenshinImpactOSTSongCreditInfo;
-  /** 乐杯 */
-  glassHarp?: GenshinImpactOSTSongCreditInfo;
+  [k: string]: GenshinImpactOSTSongCreditStaff;
 }
-type GenshinImpactOSTSongCreditInfo = string | string[];
+type GenshinImpactOSTSongCreditStaff = string | string[];
+
+interface GenshinImpactOSTSongLinks {
+  qqId?: string;
+  necId?: number;
+}
