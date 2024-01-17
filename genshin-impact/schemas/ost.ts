@@ -24,59 +24,39 @@ interface GenshinImpactOSTSong {
   name: string;
   nameEn: string;
   credits: GenshinImpactOSTSongCredits;
-  usages: GenshinImpactOSTSongUsage[];
+  usages: GenshinImpactOSTSongUsages;
   links: GenshinImpactOSTSongLinks;
   notes?: string | string[];
   related?: string[];
 }
 
-type GenshinImpactOSTSongUsage =
-  | GenshinImpactOSTSongUsageWorld
-  | GenshinImpactOSTSongUsageWorldBattle
-  | GenshinImpactOSTSongUsageBossBattle
-  | GenshinImpactOSTSongUsageDialog
-  | GenshinImpactOSTSongUsageUI
-  | GenshinImpactOSTSongUsageVideo
-  | GenshinImpactOSTSongUsageSpincrystal;
-interface GenshinImpactOSTSongUsageWorld {
-  type: "WORLD";
-  area: string;
-  time?: "DAYTIME" | "NIGHTTIME";
-  timeDuration?: string;
-  weather?: "RAIN";
-}
-interface GenshinImpactOSTSongUsageWorldBattle {
-  type: "WORLD_BATTLE";
-  area: string;
-}
-interface GenshinImpactOSTSongUsageBossBattle {
-  type: "BOSS_BATTLE";
-  domain: string;
-  boss: string;
-}
-interface GenshinImpactOSTSongUsageDialog {
-  type: "DIALOG";
-  quest?: GenshinImpactOSTSongUsageQuest;
-  description?: string;
-}
-interface GenshinImpactOSTSongUsageUI {
-  type: "UI";
-  description?: string;
-}
-interface GenshinImpactOSTSongUsageVideo {
-  type: "VIDEO";
-  videoType: "CG" | "PV";
-  quest?: GenshinImpactOSTSongUsageQuest;
-  description?: string;
+interface GenshinImpactOSTSongUsages {
+  world?: {
+    location?: string | string[];
+    area?: string;
+    region: string;
+    time?: "DAY" | "NIGHT";
+    weather?: "RAIN";
+  }[];
+  worldCombat?: {
+    location?: string | string[];
+    area?: string;
+    region: string;
+  }[];
+  domain?: string[];
+  domainCombat?: string[];
+  quest?: {
+    type: "ARCHON" | "STORY" | "EVENT";
+    chapter: string;
+    act: string;
+    part?: string | string[];
+  }[];
+  spincrystal?: number;
+  special?: string;
   video?: {
     name: string;
-    bilibiliBv?: string;
-  };
-}
-type GenshinImpactOSTSongUsageQuest = string;
-interface GenshinImpactOSTSongUsageSpincrystal {
-  type: "SPINCRYSTAL";
-  number: number;
+    bilibiliBv: string;
+  }
 }
 
 interface GenshinImpactOSTSongCredits {

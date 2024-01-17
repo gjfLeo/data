@@ -105,28 +105,38 @@
                                                             }
                                                         },
                                                         "usages": {
-                                                            "type": "array",
-                                                            "items": {
-                                                                "anyOf": [
-                                                                    {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "world": {
+                                                                    "type": "array",
+                                                                    "items": {
                                                                         "type": "object",
                                                                         "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "WORLD"
+                                                                            "location": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "array",
+                                                                                        "items": {
+                                                                                            "type": "string"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             },
                                                                             "area": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "region": {
                                                                                 "type": "string"
                                                                             },
                                                                             "time": {
                                                                                 "type": "string",
                                                                                 "enum": [
-                                                                                    "DAYTIME",
-                                                                                    "NIGHTTIME"
+                                                                                    "DAY",
+                                                                                    "NIGHT"
                                                                                 ]
-                                                                            },
-                                                                            "timeDuration": {
-                                                                                "type": "string"
                                                                             },
                                                                             "weather": {
                                                                                 "type": "string",
@@ -134,145 +144,119 @@
                                                                             }
                                                                         },
                                                                         "required": [
-                                                                            "type",
-                                                                            "area"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "WORLD_BATTLE"
-                                                                            },
-                                                                            "area": {
-                                                                                "type": "string"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type",
-                                                                            "area"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "BOSS_BATTLE"
-                                                                            },
-                                                                            "domain": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "boss": {
-                                                                                "type": "string"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type",
-                                                                            "domain",
-                                                                            "boss"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "DIALOG"
-                                                                            },
-                                                                            "quest": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "description": {
-                                                                                "type": "string"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "UI"
-                                                                            },
-                                                                            "description": {
-                                                                                "type": "string"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "VIDEO"
-                                                                            },
-                                                                            "videoType": {
-                                                                                "type": "string",
-                                                                                "enum": [
-                                                                                    "CG",
-                                                                                    "PV"
-                                                                                ]
-                                                                            },
-                                                                            "quest": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "description": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "video": {
-                                                                                "type": "object",
-                                                                                "properties": {
-                                                                                    "name": {
-                                                                                        "type": "string"
-                                                                                    },
-                                                                                    "bilibiliBv": {
-                                                                                        "type": "string"
-                                                                                    }
-                                                                                },
-                                                                                "required": [
-                                                                                    "name"
-                                                                                ],
-                                                                                "additionalProperties": false
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type",
-                                                                            "videoType"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    },
-                                                                    {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "type": {
-                                                                                "type": "string",
-                                                                                "const": "SPINCRYSTAL"
-                                                                            },
-                                                                            "number": {
-                                                                                "type": "number"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "type",
-                                                                            "number"
+                                                                            "region"
                                                                         ],
                                                                         "additionalProperties": false
                                                                     }
-                                                                ]
-                                                            }
+                                                                },
+                                                                "worldCombat": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "location": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "array",
+                                                                                        "items": {
+                                                                                            "type": "string"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "area": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "region": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "region"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    }
+                                                                },
+                                                                "domain": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "domainCombat": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "quest": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "enum": [
+                                                                                    "ARCHON",
+                                                                                    "STORY",
+                                                                                    "EVENT"
+                                                                                ]
+                                                                            },
+                                                                            "chapter": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "act": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "part": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "array",
+                                                                                        "items": {
+                                                                                            "type": "string"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "chapter",
+                                                                            "act"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    }
+                                                                },
+                                                                "spincrystal": {
+                                                                    "type": "number"
+                                                                },
+                                                                "special": {
+                                                                    "type": "string"
+                                                                },
+                                                                "video": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "name": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "bilibiliBv": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "name",
+                                                                        "bilibiliBv"
+                                                                    ],
+                                                                    "additionalProperties": false
+                                                                }
+                                                            },
+                                                            "additionalProperties": false
                                                         },
                                                         "links": {
                                                             "type": "object",
@@ -418,28 +402,38 @@
                                                                 }
                                                             },
                                                             "usages": {
-                                                                "type": "array",
-                                                                "items": {
-                                                                    "anyOf": [
-                                                                        {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "world": {
+                                                                        "type": "array",
+                                                                        "items": {
                                                                             "type": "object",
                                                                             "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "WORLD"
+                                                                                "location": {
+                                                                                    "anyOf": [
+                                                                                        {
+                                                                                            "type": "string"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "string"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
                                                                                 },
                                                                                 "area": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "region": {
                                                                                     "type": "string"
                                                                                 },
                                                                                 "time": {
                                                                                     "type": "string",
                                                                                     "enum": [
-                                                                                        "DAYTIME",
-                                                                                        "NIGHTTIME"
+                                                                                        "DAY",
+                                                                                        "NIGHT"
                                                                                     ]
-                                                                                },
-                                                                                "timeDuration": {
-                                                                                    "type": "string"
                                                                                 },
                                                                                 "weather": {
                                                                                     "type": "string",
@@ -447,145 +441,119 @@
                                                                                 }
                                                                             },
                                                                             "required": [
-                                                                                "type",
-                                                                                "area"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "WORLD_BATTLE"
-                                                                                },
-                                                                                "area": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type",
-                                                                                "area"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "BOSS_BATTLE"
-                                                                                },
-                                                                                "domain": {
-                                                                                    "type": "string"
-                                                                                },
-                                                                                "boss": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type",
-                                                                                "domain",
-                                                                                "boss"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "DIALOG"
-                                                                                },
-                                                                                "quest": {
-                                                                                    "type": "string"
-                                                                                },
-                                                                                "description": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "UI"
-                                                                                },
-                                                                                "description": {
-                                                                                    "type": "string"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "VIDEO"
-                                                                                },
-                                                                                "videoType": {
-                                                                                    "type": "string",
-                                                                                    "enum": [
-                                                                                        "CG",
-                                                                                        "PV"
-                                                                                    ]
-                                                                                },
-                                                                                "quest": {
-                                                                                    "type": "string"
-                                                                                },
-                                                                                "description": {
-                                                                                    "type": "string"
-                                                                                },
-                                                                                "video": {
-                                                                                    "type": "object",
-                                                                                    "properties": {
-                                                                                        "name": {
-                                                                                            "type": "string"
-                                                                                        },
-                                                                                        "bilibiliBv": {
-                                                                                            "type": "string"
-                                                                                        }
-                                                                                    },
-                                                                                    "required": [
-                                                                                        "name"
-                                                                                    ],
-                                                                                    "additionalProperties": false
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type",
-                                                                                "videoType"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        },
-                                                                        {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "type": {
-                                                                                    "type": "string",
-                                                                                    "const": "SPINCRYSTAL"
-                                                                                },
-                                                                                "number": {
-                                                                                    "type": "number"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "type",
-                                                                                "number"
+                                                                                "region"
                                                                             ],
                                                                             "additionalProperties": false
                                                                         }
-                                                                    ]
-                                                                }
+                                                                    },
+                                                                    "worldCombat": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "location": {
+                                                                                    "anyOf": [
+                                                                                        {
+                                                                                            "type": "string"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "string"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "area": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "region": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "region"
+                                                                            ],
+                                                                            "additionalProperties": false
+                                                                        }
+                                                                    },
+                                                                    "domain": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "domainCombat": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "quest": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                        "ARCHON",
+                                                                                        "STORY",
+                                                                                        "EVENT"
+                                                                                    ]
+                                                                                },
+                                                                                "chapter": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "act": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "part": {
+                                                                                    "anyOf": [
+                                                                                        {
+                                                                                            "type": "string"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "string"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "type",
+                                                                                "chapter",
+                                                                                "act"
+                                                                            ],
+                                                                            "additionalProperties": false
+                                                                        }
+                                                                    },
+                                                                    "spincrystal": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "special": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "video": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "name": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "bilibiliBv": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "name",
+                                                                            "bilibiliBv"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    }
+                                                                },
+                                                                "additionalProperties": false
                                                             },
                                                             "links": {
                                                                 "type": "object",
