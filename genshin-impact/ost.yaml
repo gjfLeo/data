@@ -779,7 +779,342 @@ albums:
     discs:
       - name: 山嶂参差
         nameEn: Wrinkled Peaks
-        songs: []
+        songs:
+          - number: 1
+            name: 丹砂巍巍
+            nameEn: Wordless Cliffs
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              钢琴 Piano: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              箫 Xiao: 陈泓璇 Hongxuan Chen
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              二胡 Erhu: 马稼骏 Jiajun Ma
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+            links:
+              necId: 1956541068
+              qqId: 003wNzhz43qzO3
+            related:
+              - 千岩旷望/丹砂巍巍
+              - 千岩旷望/万壑千岩
+              - 千岩旷望/清风朗月
+          - number: 2
+            name: 绝域苍茫
+            nameEn: On the Vast Earth
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              马头琴 Matouqin: 李海涛 Haitao Li
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+            links:
+              necId: 1956541069
+              qqId: 002ZqELM1sKXNb
+          - number: 3
+            name: 万壑千岩
+            nameEn: Lithic Oath
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              箫 Xiao: 陈泓璇 Hongxuan Chen
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              二胡 Erhu: 马稼骏 Jiajun Ma
+              大提琴 Cello: 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: DAYTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: DAYTIME
+            links:
+              necId: 1956543003
+              qqId: 000t9e790uWUvY
+            related:
+              - 千岩旷望/丹砂巍巍
+              - 千岩旷望/万壑千岩
+              - 千岩旷望/清风朗月
+          - number: 4
+            name: 清风朗月
+            nameEn: Under the Clear Sky
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              箫 Xiao: 陈泓璇 Hongxuan Chen
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              马头琴 Matouqin: 李海涛 Haitao Li
+              大提琴 Cello: 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: NIGHTTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: NIGHTTIME
+            links:
+              necId: 1956541070
+              qqId: 003CssvG4aygjm
+            related:
+              - 千岩旷望/丹砂巍巍
+              - 千岩旷望/万壑千岩
+              - 千岩旷望/清风朗月
+          - number: 5
+            name: 日落百嶂静
+            nameEn: As Dusk Falls
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              二胡 Erhu: 马稼骏 Jiajun Ma
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: NIGHTTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: NIGHTTIME
+            links:
+              necId: 1956541071
+              qqId: 001CXmMa045ftM
+            related:
+              - 千岩旷望/日落百嶂静
+              - 千岩旷望/大荒沉沉
+          - number: 6
+            name: 大荒沉沉
+            nameEn: Beyond the Distant Horizon
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra : 龙之艺交响乐团 Art of Dragon Orchestra
+              古筝 Guzheng : 施佳加 Jiajia Shi
+              马头琴 Matouqin : 李海涛 Haitao Li
+              录音棚 Recording Studio : 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer : 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: DAYTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: DAYTIME
+            links:
+              necId: 1956541072
+              qqId: 004Ut0gN2ztgWW
+            related:
+              - 千岩旷望/日落百嶂静
+              - 千岩旷望/大荒沉沉
+          - number: 7
+            name: 寒夜月如霜
+            nameEn: On a Cold Night
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              二胡 Erhu : 马稼骏 Jiajun Ma
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: NIGHTTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: NIGHTTIME
+            links:
+              necId: 1956543004
+              qqId: 0042ka3k3h9Etr
+            related:
+              - 千岩旷望/寒夜月如霜
+              - 千岩旷望/古戍苍苍
+              - 千岩旷望/杳杳孤鸿
+              - 千岩旷望/山瞑星河稀
+          - number: 8
+            name: 古戍苍苍
+            nameEn: Defenders' Volition
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              马头琴 Matouqin : 李海涛 Haitao Li
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: DAYTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: DAYTIME
+            links:
+              necId: 1956541073
+              qqId: 000lQk9m1PNFMZ
+            related:
+              - 千岩旷望/寒夜月如霜
+              - 千岩旷望/古戍苍苍
+              - 千岩旷望/杳杳孤鸿
+              - 千岩旷望/山瞑星河稀
+          - number: 9
+            name: 杳杳孤鸿
+            nameEn: Solitary Stray Bird
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              竹笛 Dizi : 陈泓璇 Hongxuan Chen
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: DAYTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: DAYTIME
+            links:
+              necId: 1956543005
+              qqId: 000nAGRX36XPR1
+            related:
+              - 千岩旷望/寒夜月如霜
+              - 千岩旷望/古戍苍苍
+              - 千岩旷望/杳杳孤鸿
+              - 千岩旷望/山瞑星河稀
+          - number: 10
+            name: 山瞑星河稀
+            nameEn: The Starlit Dome
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              大提琴 Cello : 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: NIGHTTIME
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: NIGHTTIME
+            links:
+              necId: 1956543006
+              qqId: 001318c53zPEbN
+            related:
+              - 千岩旷望/寒夜月如霜
+              - 千岩旷望/古戍苍苍
+              - 千岩旷望/杳杳孤鸿
+              - 千岩旷望/山瞑星河稀
+          - number: 11
+            name: 苍岭悠悠
+            nameEn: The Faint Distant Mountains
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              古筝 Guzheng : 施佳加 Jiajia Shi
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: DAYTIME
+            links:
+              necId: 1956543007
+              qqId: 000bxFTX31uwbi
+            related:
+              - 千岩旷望/苍岭悠悠
+              - 千岩旷望/空山霄月
+          - number: 12
+            name: 空山霄月
+            nameEn: Moon Above the Valley
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              古筝 Guzheng : 施佳加 Jiajia Shi
+              录音棚 Recording Studio : 52Hz Studio
+              录音师 Recording Engineer : 黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊 采樵谷
+                time: NIGHTTIME
+            links:
+              necId: 1956541074
+              qqId: 002K041C0qTqO9
+            related:
+              - 千岩旷望/苍岭悠悠
+              - 千岩旷望/空山霄月
+          - number: 13
+            name: 野云万里
+            nameEn: Wandering Clouds
+            credits:
+              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra : 龙之艺交响乐团 Art of Dragon Orchestra
+              古筝 Guzheng : 施佳加 Jiajia Shi
+              马头琴 Matouqin : 李海涛 Haitao Li
+              录音棚 Recording Studio : 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer : 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer : 黄巍 Zach Huang
+              母带制作 Mastering Engineer : 黄巍 Zach Huang
+              出品 Produced by : HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊
+                time: DAYTIME
+            links:
+              necId: 1956543008
+              qqId: 004GDp0u2uVHc2
       - name: 隅谷渊沉
         nameEn: Underground Adventures
         songs: []
