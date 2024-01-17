@@ -3,368 +3,370 @@ albums:
   - name: 风与异乡人
     nameEn: The Wind and The Star Traveler
     releaseDate: 2020-06-19
-    songs:
-      - number: 1
-        name: 原神
-        nameEn: Genshin Impact Main Theme
-        credits:
-          composer: 陈致逸 Yu-Peng Chen (HOYO-MiX)
-          conductor: Robert Ziegler
-          orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: UI
-            description: 08:00~17:00登录界面背景音乐
-        links:
-          necId: 1455706958
-          qqId: 001gQVVQ0WD3Al
-        related:
-          - Beckoning
-          - 风与异乡人/梦之咏叹
-          - Eternal Anamnesis
-          - Journey of Hope
-          - Remembrance
-          - Reminiscence
-          - Twilight Serenity
-      - number: 2
-        name: 晨曦酒庄
-        nameEn: Dawn Winery Theme
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德 苍风高地 晨曦酒庄
-            time: DAYTIME
-        links:
-          necId: 1455706951
-          qqId: 000zAZ8Q1nhqip
-        notes:
-          - 此为有人声的版本。专辑《风与牧歌之城》中的同名曲目为无人声版本。
-        related:
-          - 风与牧歌之城/晨曦酒庄
-      - number: 3
-        name: 甜美的微笑
-        nameEn: A Sweet Smile
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: DIALOG
-            quest: 魔神任务 序章 第一幕 捕风的异乡人 随风而来的骑士
-          - type: DIALOG
-            quest: 传说任务 小兔之章 第一幕 风、勇气和翅膀 风之翼随风而起
-          - type: DIALOG
-            quest: 传说任务 幼狮之章 第一幕 骑士团长的一日假期 委托人莎拉的忧愁
-          - type: DIALOG
-            quest: 活动任务 皑尘与雪影 第一幕 冰雪往事
-          - type: SPINCRYSTAL
-            number: 2
-        links:
-          necId: 1455707351
-          qqId: 000q1SXZ0V4Ke2
-      - number: 4
-        name: 风暴，高塔与圣地
-        nameEn: A Storm, A Spire, and A Sanctum (Dvalin's Nest)
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德 明冠山地 风龙废墟
-        links:
-          necId: 1455707358
-          qqId: 001n9igY1iDPzF
-      - number: 5
-        name: 终天的闭幕曲
-        nameEn: Caelestinum Finale Termini
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥 Conductor: Robert Ziegler
-          乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚 Recording Studio: Air Studios
-          录音师 Recording Engineer: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音 Mixing Engineer: Nick Wollage
-          母带 Mastering Engineer: John Webber
-          出品 Produced by: HOYO-MiX
-        usages:
-          - type: BOSS_BATTLE
-            domain: 深入风龙废墟
-            boss: 风魔龙·特瓦林
-        links:
-          necId: 1455706968
-          qqId: 002VbORV0Kzpp4
-      - number: 6
-        name: 孤独的旅居
-        nameEn: Lone Sojourner
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德 苍风高地 晨曦酒庄
-            time: NIGHTTIME
-          - type: SPINCRYSTAL
-            number: 3
-        links:
-          necId: 1455706952
-          qqId: 003fxVqS0VfMwu
-      - number: 7
-        name: 蒙德的一日
-        nameEn: A Day in Mondstadt
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德 坠星山谷 蒙德城
-            time: DAYTIME
-            timeDuration: 06:00 ~ 17:00
-          - type: DIALOG
-            quest: 魔神任务 序章 第一幕 捕风的异乡人 自由之都
-          - type: SPINCRYSTAL
-            number: 4
-        links:
-          necId: 1455707352
-          qqId: 0003kqVM3k1XKY
-      - number: 8
-        name: 梦之咏叹
-        nameEn: Dream Aria (Genshin Impact Main Theme Var.)
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: UI
-            description: 19:00~04:30登录界面背景音乐
-        links:
-          necId: 1455707353
-          qqId: 002uvKVP26XZ18
-        related:
-          - 风与异乡人/原神
-      - number: 9
-        name: 青空
-        nameEn: Pure Sky
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德
-            time: DAYTIME
-          - type: SPINCRYSTAL
-            number: 0
-        links:
-          necId: 1455706956
-          qqId: 002PxfLx0zkB04
-      - number: 10
-        name: 平原的边际
-        nameEn: The Edge of the Prairie
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥 Conductor: Robert Ziegler
-          乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚 Recording Studio: Air Studios
-          录音师 Recording Engineer: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音 Mixing Engineer: Nick Wollage
-          母带 Mastering Engineer: John Webber
-          出品 Produced by: HOYO-MiX
-        usages:
-          - type: WORLD
-            area: 蒙德 坠星山谷 无名小岛
-          - type: WORLD
-            area: 蒙德
-            weather: RAIN
-          - type: SPINCRYSTAL
-            number: 5
-        links:
-          necId: 1455706955
-          qqId: 001JhwIK3a4iDh
-      - number: 11
-        name: 特瓦林与杜林
-        nameEn: A Tale of Two Dragons
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥 Conductor: Robert Ziegler
-          乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚 Recording Studio: Air Studios
-          录音师 Recording Engineer: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音 Mixing Engineer: Nick Wollage
-          母带 Mastering Engineer: John Webber
-          出品 Produced by: HOYO-MiX
-        usages:
-          - type: VIDEO
-            videoType: CG
-            quest: 魔神任务 序章 第二幕 为了没有眼泪的明天 那个绿色的家伙
-            description: 在风神像处聆听温迪的演奏
-          - type: VIDEO
-            videoType: CG
-            quest: 传说任务 歌仙之章 第一幕 若你困于无风之地 若你困于无风之地
-          - type: SPINCRYSTAL
-            number: 6
-        links:
-          necId: 1455707355
-          qqId: 001us1IV0E9qg1
-      - number: 12
-        name: 战斗的秘仪
-        nameEn: Rite of Battle
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: WORLD_BATTLE
-            area: 蒙德
-          - type: WORLD_BATTLE
-            area: 金苹果群岛
-        links:
-          necId: 1455706971
-          qqId: 0039lga625qoXa
-      - number: 13
-        name: 骑士的义举
-        nameEn: Knighthood Excellence
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: DIALOG
-            quest: 传说任务 小兔之章 第一幕 风、勇气和翅膀 侦察骑士的作风
-          - type: DIALOG
-            quest: 传说任务 孔雀羽之章 第一幕 海盗秘宝 凯亚的收获
-        links:
-          necId: 1455706959
-          qqId: 0002HmR22SVgAX
-        related:
-          - 风与异乡人/蒙德的一日
-      - number: 14
-        name: 快乐的旅程
-        nameEn: Happy Journey
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥: Robert Ziegler
-          乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
-          录音棚: Air Studios
-          录音师: Nick Wollage
-          工程师 ProTools Operator: Laurence Anslow
-          混音: Nick Wollage
-          母带: John Webber
-          出品: HOYO-MiX
-        usages:
-          - type: DIALOG
-            quest: 传说任务 幼狮之章 第一幕 骑士团长的一日假期 骑士团长的一日假期
-          - type: DIALOG
-            quest: 传说任务 鲸天之章 第一幕 独眼小宝总动员 远渡重洋的邂逅
-          - type: DIALOG
-            quest: 传说任务 长杓之章 第一幕 蒙德食遇之旅 狩猎中的小厨师,一锤定音的食材
-          - type: DIALOG
-            quest: 活动任务 皑尘与雪影 第二幕 暗影重重
-          - type: DIALOG
-            quest: 活动任务 远海诗夏游纪 第三幕 烈火踏歌行
-          - type: DIALOG
-            quest: 活动任务 游水酝诗籍 第一幕 言欢聚
-          - type: SPINCRYSTAL
-            number: 7
-        links:
-          necId: 1455706961
-          qqId: 001l3WZG48tDCC
-      - number: 15
-        name: 捕风的异乡人
-        nameEn: The Wind Catcher from a Foreign Land
-        credits:
-          作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-          指挥 Conductor: Peter Illenyi
-          乐队 Orchestra: 布达佩斯交响乐团 Budapest Scoring
-          录音棚 Recording Studio: Studio 22
-          录音师 Recording Engineer: Kurina Tamas
-          工程师 ProTools Operator: Kurina Tamas
-          母带 Mastering Engineer: John Webber
-          出品 Produced by: HOYO-MiX
-        usages:
-          - type: VIDEO
-            videoType: PV
-            video:
-              name: 序章PV：捕风的异乡人
-              bilibiliBv: BV1P4411T73c
-        links:
-          necId: 1455707354
-          qqId: 000lGtcn4XRHnj
-        # TODO
-        related:
-          - 风与异乡人/原神
+    discs:
+      songs:
+        - number: 1
+          name: 原神
+          nameEn: Genshin Impact Main Theme
+          credits:
+            composer: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            conductor: Robert Ziegler
+            orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: UI
+              description: 08:00~17:00登录界面背景音乐
+          links:
+            necId: 1455706958
+            qqId: 001gQVVQ0WD3Al
+          related:
+            - Beckoning
+            - 风与异乡人/梦之咏叹
+            - Eternal Anamnesis
+            - Journey of Hope
+            - Remembrance
+            - Reminiscence
+            - Twilight Serenity
+        - number: 2
+          name: 晨曦酒庄
+          nameEn: Dawn Winery Theme
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 苍风高地 晨曦酒庄
+              time: DAYTIME
+          links:
+            necId: 1455706951
+            qqId: 000zAZ8Q1nhqip
+          notes:
+            - 此为有人声的版本。专辑《风与牧歌之城》中的同名曲目为无人声版本。
+          related:
+            - 风与牧歌之城/晨曦酒庄
+        - number: 3
+          name: 甜美的微笑
+          nameEn: A Sweet Smile
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: DIALOG
+              quest: 魔神任务 序章 第一幕 捕风的异乡人 随风而来的骑士
+            - type: DIALOG
+              quest: 传说任务 小兔之章 第一幕 风、勇气和翅膀 风之翼随风而起
+            - type: DIALOG
+              quest: 传说任务 幼狮之章 第一幕 骑士团长的一日假期 委托人莎拉的忧愁
+            - type: DIALOG
+              quest: 活动任务 皑尘与雪影 第一幕 冰雪往事
+            - type: SPINCRYSTAL
+              number: 2
+          links:
+            necId: 1455707351
+            qqId: 000q1SXZ0V4Ke2
+        - number: 4
+          name: 风暴，高塔与圣地
+          nameEn: A Storm, A Spire, and A Sanctum (Dvalin's Nest)
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 明冠山地 风龙废墟
+          links:
+            necId: 1455707358
+            qqId: 001n9igY1iDPzF
+        - number: 5
+          name: 终天的闭幕曲
+          nameEn: Caelestinum Finale Termini
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥 Conductor: Robert Ziegler
+            乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚 Recording Studio: Air Studios
+            录音师 Recording Engineer: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音 Mixing Engineer: Nick Wollage
+            母带 Mastering Engineer: John Webber
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: BOSS_BATTLE
+              domain: 深入风龙废墟
+              boss: 风魔龙·特瓦林
+          links:
+            necId: 1455706968
+            qqId: 002VbORV0Kzpp4
+        - number: 6
+          name: 孤独的旅居
+          nameEn: Lone Sojourner
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 苍风高地 晨曦酒庄
+              time: NIGHTTIME
+            - type: SPINCRYSTAL
+              number: 3
+          links:
+            necId: 1455706952
+            qqId: 003fxVqS0VfMwu
+        - number: 7
+          name: 蒙德的一日
+          nameEn: A Day in Mondstadt
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 坠星山谷 蒙德城
+              time: DAYTIME
+              timeDuration: 06:00 ~ 17:00
+            - type: DIALOG
+              quest: 魔神任务 序章 第一幕 捕风的异乡人 自由之都
+            - type: SPINCRYSTAL
+              number: 4
+          links:
+            necId: 1455707352
+            qqId: 0003kqVM3k1XKY
+        - number: 8
+          name: 梦之咏叹
+          nameEn: Dream Aria (Genshin Impact Main Theme Var.)
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: UI
+              description: 19:00~04:30登录界面背景音乐
+          links:
+            necId: 1455707353
+            qqId: 002uvKVP26XZ18
+          related:
+            - 风与异乡人/原神
+        - number: 9
+          name: 青空
+          nameEn: Pure Sky
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德
+              time: DAYTIME
+            - type: SPINCRYSTAL
+              number: 0
+          links:
+            necId: 1455706956
+            qqId: 002PxfLx0zkB04
+        - number: 10
+          name: 平原的边际
+          nameEn: The Edge of the Prairie
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥 Conductor: Robert Ziegler
+            乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚 Recording Studio: Air Studios
+            录音师 Recording Engineer: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音 Mixing Engineer: Nick Wollage
+            母带 Mastering Engineer: John Webber
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 坠星山谷 无名小岛
+            - type: WORLD
+              area: 蒙德
+              weather: RAIN
+            - type: SPINCRYSTAL
+              number: 5
+          links:
+            necId: 1455706955
+            qqId: 001JhwIK3a4iDh
+        - number: 11
+          name: 特瓦林与杜林
+          nameEn: A Tale of Two Dragons
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥 Conductor: Robert Ziegler
+            乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚 Recording Studio: Air Studios
+            录音师 Recording Engineer: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音 Mixing Engineer: Nick Wollage
+            母带 Mastering Engineer: John Webber
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: VIDEO
+              videoType: CG
+              quest: 魔神任务 序章 第二幕 为了没有眼泪的明天 那个绿色的家伙
+              description: 在风神像处聆听温迪的演奏
+            - type: VIDEO
+              videoType: CG
+              quest: 传说任务 歌仙之章 第一幕 若你困于无风之地 若你困于无风之地
+            - type: SPINCRYSTAL
+              number: 6
+          links:
+            necId: 1455707355
+            qqId: 001us1IV0E9qg1
+        - number: 12
+          name: 战斗的秘仪
+          nameEn: Rite of Battle
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: WORLD_BATTLE
+              area: 蒙德
+            - type: WORLD_BATTLE
+              area: 金苹果群岛
+          links:
+            necId: 1455706971
+            qqId: 0039lga625qoXa
+        - number: 13
+          name: 骑士的义举
+          nameEn: Knighthood Excellence
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: DIALOG
+              quest: 传说任务 小兔之章 第一幕 风、勇气和翅膀 侦察骑士的作风
+            - type: DIALOG
+              quest: 传说任务 孔雀羽之章 第一幕 海盗秘宝 凯亚的收获
+          links:
+            necId: 1455706959
+            qqId: 0002HmR22SVgAX
+          related:
+            - 风与异乡人/蒙德的一日
+        - number: 14
+          name: 快乐的旅程
+          nameEn: Happy Journey
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥: Robert Ziegler
+            乐队: 伦敦爱乐乐团 London Philharmonic Orchestra
+            录音棚: Air Studios
+            录音师: Nick Wollage
+            工程师 ProTools Operator: Laurence Anslow
+            混音: Nick Wollage
+            母带: John Webber
+            出品: HOYO-MiX
+          usages:
+            - type: DIALOG
+              quest: 传说任务 幼狮之章 第一幕 骑士团长的一日假期 骑士团长的一日假期
+            - type: DIALOG
+              quest: 传说任务 鲸天之章 第一幕 独眼小宝总动员 远渡重洋的邂逅
+            - type: DIALOG
+              quest: 传说任务 长杓之章 第一幕 蒙德食遇之旅 狩猎中的小厨师,一锤定音的食材
+            - type: DIALOG
+              quest: 活动任务 皑尘与雪影 第二幕 暗影重重
+            - type: DIALOG
+              quest: 活动任务 远海诗夏游纪 第三幕 烈火踏歌行
+            - type: DIALOG
+              quest: 活动任务 游水酝诗籍 第一幕 言欢聚
+            - type: SPINCRYSTAL
+              number: 7
+          links:
+            necId: 1455706961
+            qqId: 001l3WZG48tDCC
+        - number: 15
+          name: 捕风的异乡人
+          nameEn: The Wind Catcher from a Foreign Land
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            指挥 Conductor: Peter Illenyi
+            乐队 Orchestra: 布达佩斯交响乐团 Budapest Scoring
+            录音棚 Recording Studio: Studio 22
+            录音师 Recording Engineer: Kurina Tamas
+            工程师 ProTools Operator: Kurina Tamas
+            母带 Mastering Engineer: John Webber
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: VIDEO
+              videoType: PV
+              video:
+                name: 序章PV：捕风的异乡人
+                bilibiliBv: BV1P4411T73c
+          links:
+            necId: 1455707354
+            qqId: 000lGtcn4XRHnj
+          # TODO
+          related:
+            - 风与异乡人/原神
   - name: 风与牧歌之城
     nameEn: City of Winds and Idylls
     releaseDate: 2020-09-28
     discs:
-      - name: 风与牧歌之城
+      - number: 1
+        name: 风与牧歌之城
         nameEn: City of Winds and Idylls
         songs:
           - index: 24
@@ -374,7 +376,8 @@ albums:
               composer: 陈致逸
               conductor: Robert Ziegler
               orchestra: 伦敦爱乐乐团
-      - name: 蒲公英的国度
+      - number: 2
+        name: 蒲公英的国度
         nameEn: The Horizon of Dandelion
         songs:
           - index: 20
@@ -399,14 +402,16 @@ albums:
                   bilibiliBv: BV1xk4y117tg
             related:
               - 原神
-      - name: 蒙德战记
+      - number: 3
+        name: 蒙德战记
         nameEn: Saga of the West Wind
         songs: []
   - name: 皎月云间之梦
     nameEn: Jade Moon Upon a Sea of Clouds
     releaseDate: 2020-11-06
     discs:
-      - name: 琉璃明月照海平
+      - number: 1
+        name: 琉璃明月照海平
         nameEn: Glazed Moon Over the Tides
         songs:
           - index: 1
@@ -570,7 +575,8 @@ albums:
           - index: 33
             name: 随海风而来
             nameEn: Rhythms From the Conch
-      - name: 山巅清心云间月
+      - number: 2
+        name: 山巅清心云间月
         nameEn: Shimmering Sea of Clouds and Moonlight
         songs:
           - index: 2
@@ -584,33 +590,38 @@ albums:
               - type: WORLD
                 time: NIGHTTIME
                 area: 璃月 轻策庄
-      - name: 璃月鏖战录
+      - number: 3
+        name: 璃月鏖战录
         nameEn: Battles of Liyue
         songs: []
   - name: 闪耀的群星
     nameEn: The Stellar Moments
     releaseDate: 2021-02-04
-    songs: []
+    discs:
+      songs: []
   - name: 漩涡、落星与冰山
     nameEn: Vortex of Legends
     releaseDate: 2021-04-12
-    songs:
-      - index: 1
-        name: 雪掩的往事
-        nameEn: Snow-Buried Tales
-        credits:
-          composer: 陈致逸
-          orchestrator: 陈致逸
-          piano: 陈致逸
-          strings: 国际首席爱乐乐团
+    discs:
+      songs:
+        - index: 1
+          name: 雪掩的往事
+          nameEn: Snow-Buried Tales
+          credits:
+            composer: 陈致逸
+            orchestrator: 陈致逸
+            piano: 陈致逸
+            strings: 国际首席爱乐乐团
   - name: 珍珠之歌
     nameEn: The Shimmering Voyage
     releaseDate: 2021-07-19
     discs:
-      - name: 海岛童话
+      - number: 1
+        name: 海岛童话
         nameEn: Fairytale of the Isles
         songs: []
-      - name: 烁烁明星
+      - number: 2
+        name: 烁烁明星
         nameEn: Blazing Stars
         songs:
           - index: 23
@@ -622,7 +633,8 @@ albums:
               orchestra: 上海交响乐团
               orchestrator: 陈致逸
               piano: 陈致逸
-      - name: 激流与岩壑
+      - number: 3
+        name: 激流与岩壑
         nameEn: Roar of the Formidable
         songs:
           - index: 1
@@ -639,8 +651,8 @@ albums:
           - index: 2
             name: 永无谢幕的演出
             nameEn: Never-Ending Performance
-
-      - name: 陌客的旅途
+      - number: 4
+        name: 陌客的旅途
         nameEn: A Stranger's Sojourn
         songs: []
   - name: 寂远无妄之国
@@ -777,7 +789,8 @@ albums:
     nameEn: Millelith's Watch
     releaseDate: 2022-06-22
     discs:
-      - name: 山嶂参差
+      - number: 1
+        name: 山嶂参差
         nameEn: Wrinkled Peaks
         songs:
           - number: 1
@@ -1115,10 +1128,12 @@ albums:
             links:
               necId: 1956543008
               qqId: 004GDp0u2uVHc2
-      - name: 隅谷渊沉
+      - number: 2
+        name: 隅谷渊沉
         nameEn: Underground Adventures
         songs: []
-      - name: 戈剑铿然
+      - number: 3
+        name: 戈剑铿然
         nameEn: Battles of the Chasm
         songs: []
   - name: 珍珠之歌2

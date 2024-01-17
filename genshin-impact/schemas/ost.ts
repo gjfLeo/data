@@ -2,24 +2,18 @@ export interface GenshinImpactOSTData {
   albums: GenshinImpactOSTAlbum[];
 }
 
-interface GenshinImpactOSTAlbumBase {
+interface GenshinImpactOSTAlbum {
   name: string;
   nameEn: string;
   releaseDate: string;
+  discs: GenshinImpactOSTSingleDisc | GenshinImpactOSTDisc[];
 }
 
-interface GenshinImpactOSTAlbumWithoutDiscs extends GenshinImpactOSTAlbumBase {
+interface GenshinImpactOSTSingleDisc {
   songs: GenshinImpactOSTSong[];
 }
-interface GenshinImpactOSTAlbumWithDiscs extends GenshinImpactOSTAlbumBase {
-  discs: GenshinImpactOSTDisc[];
-}
-
-type GenshinImpactOSTAlbum =
-  | GenshinImpactOSTAlbumWithDiscs
-  | GenshinImpactOSTAlbumWithoutDiscs;
-
 interface GenshinImpactOSTDisc {
+  number: number;
   name: string;
   nameEn: string;
   songs: GenshinImpactOSTSong[];

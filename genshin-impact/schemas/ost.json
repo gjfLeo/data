@@ -8,24 +8,329 @@
                 "albums": {
                     "type": "array",
                     "items": {
-                        "anyOf": [
-                            {
-                                "type": "object",
-                                "properties": {
-                                    "name": {
-                                        "type": "string"
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "nameEn": {
+                                "type": "string"
+                            },
+                            "releaseDate": {
+                                "type": "string"
+                            },
+                            "discs": {
+                                "anyOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "songs": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "number": {
+                                                            "type": "number"
+                                                        },
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "nameEn": {
+                                                            "type": "string"
+                                                        },
+                                                        "credits": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "composer": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "string"
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "lyricist": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "string"
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "arranger": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "string"
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "conductor": {
+                                                                    "type": "string"
+                                                                },
+                                                                "orchestra": {
+                                                                    "type": "string"
+                                                                },
+                                                                "orchestrator": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "additionalProperties": {
+                                                                "anyOf": [
+                                                                    {
+                                                                        "type": "string"
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "usages": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "anyOf": [
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "WORLD"
+                                                                            },
+                                                                            "area": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "time": {
+                                                                                "type": "string",
+                                                                                "enum": [
+                                                                                    "DAYTIME",
+                                                                                    "NIGHTTIME"
+                                                                                ]
+                                                                            },
+                                                                            "timeDuration": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "weather": {
+                                                                                "type": "string",
+                                                                                "const": "RAIN"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "area"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "WORLD_BATTLE"
+                                                                            },
+                                                                            "area": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "area"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "BOSS_BATTLE"
+                                                                            },
+                                                                            "domain": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "boss": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "domain",
+                                                                            "boss"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "DIALOG"
+                                                                            },
+                                                                            "quest": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "description": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "UI"
+                                                                            },
+                                                                            "description": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "VIDEO"
+                                                                            },
+                                                                            "videoType": {
+                                                                                "type": "string",
+                                                                                "enum": [
+                                                                                    "CG",
+                                                                                    "PV"
+                                                                                ]
+                                                                            },
+                                                                            "quest": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "description": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "video": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "name": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "bilibiliBv": {
+                                                                                        "type": "string"
+                                                                                    }
+                                                                                },
+                                                                                "required": [
+                                                                                    "name"
+                                                                                ],
+                                                                                "additionalProperties": false
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "videoType"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    },
+                                                                    {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "const": "SPINCRYSTAL"
+                                                                            },
+                                                                            "number": {
+                                                                                "type": "number"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "type",
+                                                                            "number"
+                                                                        ],
+                                                                        "additionalProperties": false
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "links": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "qqId": {
+                                                                    "type": "string"
+                                                                },
+                                                                "necId": {
+                                                                    "type": "number"
+                                                                }
+                                                            },
+                                                            "additionalProperties": false
+                                                        },
+                                                        "notes": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "related": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "number",
+                                                        "name",
+                                                        "nameEn",
+                                                        "credits",
+                                                        "usages",
+                                                        "links"
+                                                    ],
+                                                    "additionalProperties": false
+                                                }
+                                            }
+                                        },
+                                        "required": [
+                                            "songs"
+                                        ],
+                                        "additionalProperties": false
                                     },
-                                    "nameEn": {
-                                        "type": "string"
-                                    },
-                                    "releaseDate": {
-                                        "type": "string"
-                                    },
-                                    "discs": {
+                                    {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
+                                                "number": {
+                                                    "type": "number"
+                                                },
                                                 "name": {
                                                     "type": "string"
                                                 },
@@ -327,6 +632,7 @@
                                                 }
                                             },
                                             "required": [
+                                                "number",
                                                 "name",
                                                 "nameEn",
                                                 "songs"
@@ -334,330 +640,16 @@
                                             "additionalProperties": false
                                         }
                                     }
-                                },
-                                "required": [
-                                    "discs",
-                                    "name",
-                                    "nameEn",
-                                    "releaseDate"
-                                ],
-                                "additionalProperties": false
-                            },
-                            {
-                                "type": "object",
-                                "properties": {
-                                    "name": {
-                                        "type": "string"
-                                    },
-                                    "nameEn": {
-                                        "type": "string"
-                                    },
-                                    "releaseDate": {
-                                        "type": "string"
-                                    },
-                                    "songs": {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "object",
-                                            "properties": {
-                                                "number": {
-                                                    "type": "number"
-                                                },
-                                                "name": {
-                                                    "type": "string"
-                                                },
-                                                "nameEn": {
-                                                    "type": "string"
-                                                },
-                                                "credits": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                        "composer": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "lyricist": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "arranger": {
-                                                            "anyOf": [
-                                                                {
-                                                                    "type": "string"
-                                                                },
-                                                                {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "conductor": {
-                                                            "type": "string"
-                                                        },
-                                                        "orchestra": {
-                                                            "type": "string"
-                                                        },
-                                                        "orchestrator": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "additionalProperties": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "string"
-                                                            },
-                                                            {
-                                                                "type": "array",
-                                                                "items": {
-                                                                    "type": "string"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                "usages": {
-                                                    "type": "array",
-                                                    "items": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "WORLD"
-                                                                    },
-                                                                    "area": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "time": {
-                                                                        "type": "string",
-                                                                        "enum": [
-                                                                            "DAYTIME",
-                                                                            "NIGHTTIME"
-                                                                        ]
-                                                                    },
-                                                                    "timeDuration": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "weather": {
-                                                                        "type": "string",
-                                                                        "const": "RAIN"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type",
-                                                                    "area"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "WORLD_BATTLE"
-                                                                    },
-                                                                    "area": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type",
-                                                                    "area"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "BOSS_BATTLE"
-                                                                    },
-                                                                    "domain": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "boss": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type",
-                                                                    "domain",
-                                                                    "boss"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "DIALOG"
-                                                                    },
-                                                                    "quest": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "description": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "UI"
-                                                                    },
-                                                                    "description": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "VIDEO"
-                                                                    },
-                                                                    "videoType": {
-                                                                        "type": "string",
-                                                                        "enum": [
-                                                                            "CG",
-                                                                            "PV"
-                                                                        ]
-                                                                    },
-                                                                    "quest": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "description": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "video": {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "name": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "bilibiliBv": {
-                                                                                "type": "string"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "name"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type",
-                                                                    "videoType"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            },
-                                                            {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                    "type": {
-                                                                        "type": "string",
-                                                                        "const": "SPINCRYSTAL"
-                                                                    },
-                                                                    "number": {
-                                                                        "type": "number"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "type",
-                                                                    "number"
-                                                                ],
-                                                                "additionalProperties": false
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                "links": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                        "qqId": {
-                                                            "type": "string"
-                                                        },
-                                                        "necId": {
-                                                            "type": "number"
-                                                        }
-                                                    },
-                                                    "additionalProperties": false
-                                                },
-                                                "notes": {
-                                                    "anyOf": [
-                                                        {
-                                                            "type": "string"
-                                                        },
-                                                        {
-                                                            "type": "array",
-                                                            "items": {
-                                                                "type": "string"
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "related": {
-                                                    "type": "array",
-                                                    "items": {
-                                                        "type": "string"
-                                                    }
-                                                }
-                                            },
-                                            "required": [
-                                                "number",
-                                                "name",
-                                                "nameEn",
-                                                "credits",
-                                                "usages",
-                                                "links"
-                                            ],
-                                            "additionalProperties": false
-                                        }
-                                    }
-                                },
-                                "required": [
-                                    "name",
-                                    "nameEn",
-                                    "releaseDate",
-                                    "songs"
-                                ],
-                                "additionalProperties": false
+                                ]
                             }
-                        ]
+                        },
+                        "required": [
+                            "name",
+                            "nameEn",
+                            "releaseDate",
+                            "discs"
+                        ],
+                        "additionalProperties": false
                     }
                 }
             },
