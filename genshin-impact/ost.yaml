@@ -604,14 +604,321 @@ albums:
     releaseDate: 2021-04-12
     discs:
       songs:
-        - index: 1
+        - number: 1
           name: 雪掩的往事
           nameEn: Snow-Buried Tales
           credits:
-            composer: 陈致逸
-            orchestrator: 陈致逸
-            piano: 陈致逸
-            strings: 国际首席爱乐乐团
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833805536
+            qqId: 004dW6cv09FHH8
+        - number: 2
+          name: 银白的希望
+          nameEn: Fragile Fantasy
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833806442
+            qqId: 001gIWBU1FWI0F
+        - number: 3
+          name: 霜的精灵
+          nameEn: Chattering Snowflakes
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: DAYTIME
+          links:
+            necId: 1833805557
+            qqId: 0032yqXQ2iMhA9
+        - number: 4
+          name: 在梦乡重聚
+          nameEn: Serene and Sweet Adieu
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833806429
+            qqId: 000IK4fU1G1Ykz
+          related:
+            - 漩涡、落星与冰山/银白的希望
+        - number: 5
+          name: 冰下的碎梦
+          nameEn: Glistening Shards
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833805537
+            qqId: 003ol4C517BJ6a
+        - number: 6
+          name: 遗忘的流风
+          nameEn: Ad Oblivione
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833806443
+            qqId: 003eirMg3SNozM
+        - number: 7
+          name: 寒潮的余响
+          nameEn: Abiding Chills
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+          links:
+            necId: 1833805535
+            qqId: 001WraT21aU5Tm
+        - number: 8
+          name: 极寒的险地
+          nameEn: Menacing Cove
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山 星荧洞窟
+              time: NIGHTTIME
+          links:
+            necId: 1833805539
+            qqId: 003Xmu0f0ulaso
+          related:
+            - 漩涡、落星与冰山/雪掩的往事
+        - number: 9
+          name: 雪暴中迷途
+          nameEn: Striding in the Snowstorm
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山 星荧洞窟
+          links:
+            necId: 1833806433
+            qqId: 002U4PIC0uZbfb
+        - number: 10
+          name: 隐匿的凶兆
+          nameEn: Sinister Mist
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山 星荧洞窟
+          links:
+            necId: 1833805541
+            qqId: 001EpqRt1OmZdW
+        - number: 11
+          name: 静谧的厅堂
+          nameEn: In the Desolate Hallway
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833806431
+            qqId: 001esNxC40zdAO
+          related:
+            - 漩涡、落星与冰山/雪掩的往事
+        - number: 12
+          name: 山林的故园
+          nameEn: The Flourishing Past
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: DAYTIME
+          links:
+            necId: 1833806430
+            qqId: 000EPBcK2o57jA
+          related:
+            - 漩涡、落星与冰山/冰下的碎梦
+        - number: 13
+          name: 未完成的画作
+          nameEn: Unfinished Frescoes
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+          links:
+            necId: 1833805552
+            qqId: 000dy1eo4ZyaRP
+        - number: 14
+          name: 冰风的独舞
+          nameEn: Spin of Ice Crystals
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+          links:
+            necId: 1833805559
+            qqId: 004FBanr42tbKG
+          related:
+            - 漩涡、落星与冰山/未完成的画作
+        - number: 15
+          name: 雪国的终曲
+          nameEn: Finale of the Snowtomb
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: DAYTIME
+          links:
+            necId: 1833805560
+            qqId: 0038graJ4EDYZG
+          related:
+            - 漩涡、落星与冰山/遗忘的流风
+        - number: 16
+          name: 色彩的记忆
+          nameEn: Once-Colored Memories
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: NIGHTTIME
+          links:
+            necId: 1833806441
+            qqId: 00271EZD1ea8hC
+        - number: 17
+          name: 皎洁的笑颜
+          nameEn: Moonlike Smile
+          credits:
+            作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+            钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+            弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音/母带 Mixing/Mastering Engineer: 黄巍 Zach Huang
+            出品 Produced by: HOYO-MiX
+          usages:
+            - type: WORLD
+              area: 蒙德 龙脊雪山
+              time: DAYTIME
+          links:
+            necId: 1833805540
+            qqId: 001vhy3S1k2SFO
   - name: 珍珠之歌
     nameEn: The Shimmering Voyage
     releaseDate: 2021-07-19
@@ -654,7 +961,36 @@ albums:
       - number: 4
         name: 陌客的旅途
         nameEn: A Stranger's Sojourn
-        songs: []
+        songs:
+          - number: 67
+            name: 山巅雪国的记忆
+            nameEn: Tales From the Snow Mountain
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              合唱指挥 Choir Conductor: 齐放 Fang Qi
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              合唱 Choir: Sfuture艺术团@Shanghai Sfuture Art Group
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 上海广播大厦 Shanghai Media Group、金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo、王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: VIDEO
+                videoType: PV
+                video:
+                  name: 「山巅雪国的记忆」：《原神》龙脊雪山OST印象曲MV
+                  bilibiliBv: BV16v41187dP
+            links:
+              necId: 1861579836
+              qqId: 001esjC24DpI7d
+            related:
+              - 漩涡、落星与冰山/冰下的碎梦
+              - 漩涡、落星与冰山/皎洁的笑颜
+              - 漩涡、落星与冰山/银白的希望
+              - 漩涡、落星与冰山/雪掩的往事
   - name: 寂远无妄之国
     nameEn: Realm of Tranquil Eternity
     releaseDate: 2021-09-22
@@ -932,16 +1268,16 @@ albums:
             name: 大荒沉沉
             nameEn: Beyond the Distant Horizon
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              乐队 Orchestra : 龙之艺交响乐团 Art of Dragon Orchestra
-              古筝 Guzheng : 施佳加 Jiajia Shi
-              马头琴 Matouqin : 李海涛 Haitao Li
-              录音棚 Recording Studio : 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
-              录音师 Recording Engineer : 莫家伟 Jiawei Mo/黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              马头琴 Matouqin: 李海涛 Haitao Li
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -959,14 +1295,14 @@ albums:
             name: 寒夜月如霜
             nameEn: On a Cold Night
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              二胡 Erhu : 马稼骏 Jiajun Ma
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              二胡 Erhu: 马稼骏 Jiajun Ma
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -986,14 +1322,14 @@ albums:
             name: 古戍苍苍
             nameEn: Defenders' Volition
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              马头琴 Matouqin : 李海涛 Haitao Li
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              马头琴 Matouqin: 李海涛 Haitao Li
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -1013,14 +1349,14 @@ albums:
             name: 杳杳孤鸿
             nameEn: Solitary Stray Bird
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              竹笛 Dizi : 陈泓璇 Hongxuan Chen
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              竹笛 Dizi: 陈泓璇 Hongxuan Chen
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -1040,14 +1376,14 @@ albums:
             name: 山瞑星河稀
             nameEn: The Starlit Dome
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              大提琴 Cello : 陈小龙 Xiaolong Chen
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              大提琴 Cello: 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -1067,14 +1403,14 @@ albums:
             name: 苍岭悠悠
             nameEn: The Faint Distant Mountains
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              古筝 Guzheng : 施佳加 Jiajia Shi
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊 采樵谷
@@ -1089,14 +1425,14 @@ albums:
             name: 空山霄月
             nameEn: Moon Above the Valley
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              古筝 Guzheng : 施佳加 Jiajia Shi
-              录音棚 Recording Studio : 52Hz Studio
-              录音师 Recording Engineer : 黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              录音棚 Recording Studio: 52Hz Studio
+              录音师 Recording Engineer: 黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊 采樵谷
@@ -1111,16 +1447,16 @@ albums:
             name: 野云万里
             nameEn: Wandering Clouds
             credits:
-              作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              编曲 Arranger : 陈致逸 Yu-Peng Chen (HOYO-MiX)
-              乐队 Orchestra : 龙之艺交响乐团 Art of Dragon Orchestra
-              古筝 Guzheng : 施佳加 Jiajia Shi
-              马头琴 Matouqin : 李海涛 Haitao Li
-              录音棚 Recording Studio : 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
-              录音师 Recording Engineer : 莫家伟 Jiawei Mo/黄巍 Zach Huang
-              混音师 Mixing Engineer : 黄巍 Zach Huang
-              母带制作 Mastering Engineer : 黄巍 Zach Huang
-              出品 Produced by : HOYO-MiX
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              古筝 Guzheng: 施佳加 Jiajia Shi
+              马头琴 Matouqin: 李海涛 Haitao Li
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/黄巍 Zach Huang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
             usages:
               - type: WORLD
                 area: 璃月 层岩巨渊 层岩巨渊
@@ -1131,11 +1467,462 @@ albums:
       - number: 2
         name: 隅谷渊沉
         nameEn: Underground Adventures
-        songs: []
+        songs:
+          - number: 14
+            name: 缄默的意义
+            nameEn: Secret Is Held
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 巨渊主矿区 生命之谷的根须（非官方名称）
+            links:
+              necId: 1956541075
+              qqId: 00138zSB0m2UKG
+            related:
+              - 千岩旷望/缄默的意义
+              - 千岩旷望/无人知晓的梦
+          - number: 15
+            name: 无人知晓的梦
+            nameEn: Dreaming Earth
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 巨渊主矿区 生命之谷的根须（非官方名称）
+            links:
+              necId: 1956543009
+              qqId: 003bPMfz01rlL7
+            related:
+              - 千岩旷望/缄默的意义
+              - 千岩旷望/无人知晓的梦
+          - number: 16
+            name: 不稳的预感
+            nameEn: Frail Peace
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956541076
+              qqId: 0041dwWt2ZsyJb
+          - number: 17
+            name: 隐映霜崖
+            nameEn: Falls the Shadow
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              竹笛 Dizi: 丁晓逵 Xiaokui Ding
+              录音棚 Recording Studio: Ready Steady Sound!
+              录音师 Recording Engineer: 陈冠男 Guan'nan Chen
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: DIALOG
+                quest: 活动任务 危途疑踪
+            links:
+              necId: 1956541077
+              qqId: 001rAhxX2fzhfv
+            related:
+              - 千岩旷望/不稳的预感
+          - number: 18
+            name: 暗影潜形
+            nameEn: Prowl the Shadows
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956543010
+              qqId: 003Ynxwp2cmGVn
+          - number: 19
+            name: 穷地之险
+            nameEn: A Moment of Unsettledness
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              箫 Xiao: 丁晓逵 Xiaokui Ding
+              录音棚 Recording Studio: Ready Steady Sound!
+              录音师 Recording Engineer: 陈冠男 Guan'nan Chen
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: DIALOG
+                quest: 活动任务 危途疑踪
+            links:
+              necId: 1956541078
+              qqId: 001Y9BeE0U6Noj
+            related:
+              - 千岩旷望/暗影潜形
+          - number: 20
+            name: 盲目的探索
+            nameEn: Blind Search
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956541079
+              qqId: 0047LWtG01k54o
+          - number: 21
+            name: 虚旷之地
+            nameEn: Into the Airless Void
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956543011
+          - number: 22
+            name: 萤爝微光
+            nameEn: A Glimmer of Hope
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956543012
+          - number: 23
+            name: 尘路绮错
+            nameEn: Crossing Roads
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)/苑迪萌Dimeng Yuan (HOYO-MiX)
+              古筝 Guzheng: 申依靖 Yijing Shen
+              二胡 Erhu: 王颖 Ying Wang
+              录音棚 Recording Studio: Ready Steady Sound!
+              录音师 Recording Engineer: 陈冠男 Guan'nan Chen
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: DIALOG
+                quest: 活动任务 危途疑踪
+            links:
+              necId: 1956541080
+            related:
+              - 千岩旷望/萤爝微光
+          - number: 24
+            name: 静默的土地
+            nameEn: Stillness of the Ground
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956543013
+          - number: 25
+            name: 行过重岩
+            nameEn: Lost in Gravel and Stone
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956541081
+          - number: 26
+            name: 冥岩的覃思
+            nameEn: In Gloomy Meditation
+            credits:
+              作曲: 姜以君 Yijun Jiang (HOYO-MiX)
+              编曲 Arranger: 姜以君 Yijun Jiang (HOYO-MiX)
+              混音师 Mixing Engineer: 姜以君 Yijun Jiang (HOYO-MiX)
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 临时主矿道,崎岖石厅,巨渊主矿区,巨蛇岩洞,地下水泽,巨渊深底
+            links:
+              necId: 1956541082
+          - number: 27
+            name: 重岫而游
+            nameEn: A Venture Into the Unknown
+            credits:
+              作曲: 苑迪萌Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              箫 Xiao: 丁晓逵 Xiaokui Ding
+              录音棚 Recording Studio: Ready Steady Sound!
+              录音师 Recording Engineer: 陈冠男 Guan'nan Chen
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: DIALOG
+                quest: 活动任务 危途疑踪
+            links:
+              necId: 1956543014
+          - number: 28
+            name: 繁华已逝
+            nameEn: Decayed in the Darkness
+            credits:
+              作曲: 丁谦 Qian Ding (HOYO-MiX)
+              编曲 Arranger: 丁谦 Qian Ding (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              小提琴 Violin: 朱玥 Yue Zhu
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹（中心区域）
+            links:
+              necId: 1956543015
+            related:
+              - 千岩旷望/繁华已逝
+              - 千岩旷望/破碎的荣耀
+              - 千岩旷望/腾溢的敌意
+          - number: 29
+            name: 破碎的荣耀
+            nameEn: A Shard From Past Glories
+            credits:
+              作曲: 丁谦 Qian Ding (HOYO-MiX)
+              编曲 Arranger: 丁谦 Qian Ding (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              小提琴 Violin: 朱玥 Yue Zhu
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹（中心区域）
+            links:
+              necId: 1956543016
+            related:
+              - 千岩旷望/繁华已逝
+              - 千岩旷望/破碎的荣耀
+              - 千岩旷望/腾溢的敌意
+          - number: 30
+            name: 向时的涟沦
+            nameEn: Ripples of the Past
+            credits:
+              作曲: 赵鑫 Xin Zhao (HOYO-MiX)
+              编曲 Arranger: 赵鑫 Xin Zhao (HOYO-MiX)
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹,颠倒古城
+            links:
+              necId: 1956543017
+            related:
+              - 千岩旷望/向时的涟沦
+              - 千岩旷望/久已消逝之物
+              - 千岩旷望/争斗的暗流
+          - number: 31
+            name: 久已消逝之物
+            nameEn: The Long Lost Days
+            credits:
+              作曲: 赵鑫 Xin Zhao (HOYO-MiX)
+              编曲 Arranger: 赵鑫 Xin Zhao (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              大提琴 Cello: 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹,颠倒古城
+            links:
+              necId: 1956541083
+            related:
+              - 千岩旷望/向时的涟沦
+              - 千岩旷望/久已消逝之物
+              - 千岩旷望/争斗的暗流
+          - number: 32
+            name: 深邃诡幻之径
+            nameEn: A Path to Delusions
+            credits:
+              作曲: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 荧光狭道
+            links:
+              necId: 1956543018
+            related:
+              - 千岩旷望/深邃诡幻之径
+              - 千岩旷望/觭梦沉酣之处
+              - 千岩旷望/迫近的险乱
+          - number: 33
+            name: 觭梦沉酣之处
+            nameEn: A Route to Fantasies
+            credits:
+              作曲: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 苑迪萌Dimeng Yuan (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 荧光狭道
+            links:
+              necId: 1956541084
+            related:
+              - 千岩旷望/深邃诡幻之径
+              - 千岩旷望/觭梦沉酣之处
+              - 千岩旷望/迫近的险乱
+          - number: 34
+            name: 深埋地心的瑰秘
+            nameEn: Stories of Remote Antiquity
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra
+              小提琴 Violin: 朱玥 Yue Zhu
+              大提琴 Cello: 陈小龙 Xiaolong Chen
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 灵石
+            links:
+              necId: 1956543019
       - number: 3
         name: 戈剑铿然
         nameEn: Battles of the Chasm
-        songs: []
+        songs:
+          - number: 37
+            name: 腾溢的敌意
+            nameEn: Seething Animosity
+            credits:
+              作曲: 丁谦 Qian Ding (HOYO-MiX)
+              编曲 Arranger: 丁谦 Qian Ding (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD_BATTLE
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹（中心区域）
+            links:
+              necId: 1956543022
+            related:
+              - 千岩旷望/繁华已逝
+              - 千岩旷望/破碎的荣耀
+              - 千岩旷望/腾溢的敌意
+          - number: 38
+            name: 争斗的暗流
+            nameEn: Undercurrents of Hostility
+            credits:
+              作曲: 赵鑫 Xin Zhao (HOYO-MiX)
+              编曲 Arranger: 赵鑫 Xin Zhao (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD_BATTLE
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 无名遗迹,颠倒古城
+            links:
+              necId: 1956543023
+            related:
+              - 千岩旷望/向时的涟沦
+              - 千岩旷望/久已消逝之物
+              - 千岩旷望/争斗的暗流
+          - number: 39
+            name: 迫近的险乱
+            nameEn: Impending Danger
+            credits:
+              作曲: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              编曲 Arranger: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD_BATTLE
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 荧光狭道
+            links:
+              necId: 1956543024
+            related:
+              - 千岩旷望/深邃诡幻之径
+              - 千岩旷望/觭梦沉酣之处
+              - 千岩旷望/迫近的险乱
+          - number: 40
+            name: 激扬的韧战
+            nameEn: Inevitable Conflict
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              编曲 Arranger: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队 Orchestra: 龙之艺交响乐团 Art of Dragon Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra
+              小提琴 Violin: 柳鸣 Ming Liu
+              录音棚 Recording Studio: 上海音像公司录音棚 Shanghai Audio & Video Company Recording Studio/金田录音棚 Jintian Recording Studio/52Hz Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo/王小四 Xiaosi Wang/徐威 Aaron Xu
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              - type: WORLD_BATTLE
+                area: 璃月 层岩巨渊 层岩巨渊：地下矿区 灵石
+            links:
+              necId: 1956543025
   - name: 珍珠之歌2
     nameEn: The Shimmering Voyage Vol. 2
     releaseDate: 2022-08-15
