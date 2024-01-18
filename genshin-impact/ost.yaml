@@ -1063,6 +1063,49 @@ albums:
             related:
               - 珍珠之歌/广袤的晴空
               - 珍珠之歌/微波轻摇
+          - number: 5
+            name: 海风细语
+            nameEn: Whispering Seabreeze
+            credits:
+              作曲 Composer: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: DAY
+            links:
+              necId: 1861403393
+            related:
+              - 珍珠之歌/海风细语
+              - 珍珠之歌/小憩沙滩
+          - number: 6
+            name: 小憩沙滩
+            nameEn: Sunshine Beach
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              尼龙弦吉他 Nylon Guitar: 范晔 Ye Fan
+              录音棚 Recording Studio: 上海广播大厦 Shanghai Media Group
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: NIGHT
+            links:
+              necId: 1861403398
+            related:
+              - 珍珠之歌/海风细语
+              - 珍珠之歌/小憩沙滩
       - number: 2
         name: 烁烁明星
         nameEn: Blazing Stars
