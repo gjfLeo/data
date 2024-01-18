@@ -131,47 +131,42 @@
                                                                             "region": {
                                                                                 "type": "string"
                                                                             },
-                                                                            "time": {
-                                                                                "type": "string",
-                                                                                "enum": [
-                                                                                    "DAY",
-                                                                                    "NIGHT"
-                                                                                ]
-                                                                            },
-                                                                            "weather": {
-                                                                                "type": "string",
-                                                                                "const": "RAIN"
-                                                                            }
-                                                                        },
-                                                                        "required": [
-                                                                            "region"
-                                                                        ],
-                                                                        "additionalProperties": false
-                                                                    }
-                                                                },
-                                                                "worldCombat": {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "object",
-                                                                        "properties": {
-                                                                            "location": {
+                                                                            "condition": {
                                                                                 "anyOf": [
                                                                                     {
-                                                                                        "type": "string"
+                                                                                        "type": "string",
+                                                                                        "const": "DAY"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "string",
+                                                                                        "const": "NIGHT"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "string",
+                                                                                        "const": "RAIN"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "string",
+                                                                                        "const": "COMBAT"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "string",
+                                                                                        "const": "WAVERIDER"
                                                                                     },
                                                                                     {
                                                                                         "type": "array",
                                                                                         "items": {
-                                                                                            "type": "string"
+                                                                                            "type": "string",
+                                                                                            "enum": [
+                                                                                                "DAY",
+                                                                                                "NIGHT",
+                                                                                                "RAIN",
+                                                                                                "COMBAT",
+                                                                                                "WAVERIDER"
+                                                                                            ]
                                                                                         }
                                                                                     }
                                                                                 ]
-                                                                            },
-                                                                            "area": {
-                                                                                "type": "string"
-                                                                            },
-                                                                            "region": {
-                                                                                "type": "string"
                                                                             }
                                                                         },
                                                                         "required": [
@@ -183,13 +178,32 @@
                                                                 "domain": {
                                                                     "type": "array",
                                                                     "items": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "domainCombat": {
-                                                                    "type": "array",
-                                                                    "items": {
-                                                                        "type": "string"
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "domain": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "type": {
+                                                                                "type": "string",
+                                                                                "enum": [
+                                                                                    "CHALLENGE",
+                                                                                    "TROUNCE",
+                                                                                    "ONE-TIME",
+                                                                                    "ABYSS",
+                                                                                    "QUEST",
+                                                                                    "EVENT"
+                                                                                ]
+                                                                            },
+                                                                            "condition": {
+                                                                                "type": "string",
+                                                                                "const": "COMBAT"
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "domain",
+                                                                            "type"
+                                                                        ],
+                                                                        "additionalProperties": false
                                                                     }
                                                                 },
                                                                 "quest": {
@@ -428,47 +442,42 @@
                                                                                 "region": {
                                                                                     "type": "string"
                                                                                 },
-                                                                                "time": {
-                                                                                    "type": "string",
-                                                                                    "enum": [
-                                                                                        "DAY",
-                                                                                        "NIGHT"
-                                                                                    ]
-                                                                                },
-                                                                                "weather": {
-                                                                                    "type": "string",
-                                                                                    "const": "RAIN"
-                                                                                }
-                                                                            },
-                                                                            "required": [
-                                                                                "region"
-                                                                            ],
-                                                                            "additionalProperties": false
-                                                                        }
-                                                                    },
-                                                                    "worldCombat": {
-                                                                        "type": "array",
-                                                                        "items": {
-                                                                            "type": "object",
-                                                                            "properties": {
-                                                                                "location": {
+                                                                                "condition": {
                                                                                     "anyOf": [
                                                                                         {
-                                                                                            "type": "string"
+                                                                                            "type": "string",
+                                                                                            "const": "DAY"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "string",
+                                                                                            "const": "NIGHT"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "string",
+                                                                                            "const": "RAIN"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "string",
+                                                                                            "const": "COMBAT"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "string",
+                                                                                            "const": "WAVERIDER"
                                                                                         },
                                                                                         {
                                                                                             "type": "array",
                                                                                             "items": {
-                                                                                                "type": "string"
+                                                                                                "type": "string",
+                                                                                                "enum": [
+                                                                                                    "DAY",
+                                                                                                    "NIGHT",
+                                                                                                    "RAIN",
+                                                                                                    "COMBAT",
+                                                                                                    "WAVERIDER"
+                                                                                                ]
                                                                                             }
                                                                                         }
                                                                                     ]
-                                                                                },
-                                                                                "area": {
-                                                                                    "type": "string"
-                                                                                },
-                                                                                "region": {
-                                                                                    "type": "string"
                                                                                 }
                                                                             },
                                                                             "required": [
@@ -480,13 +489,32 @@
                                                                     "domain": {
                                                                         "type": "array",
                                                                         "items": {
-                                                                            "type": "string"
-                                                                        }
-                                                                    },
-                                                                    "domainCombat": {
-                                                                        "type": "array",
-                                                                        "items": {
-                                                                            "type": "string"
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "domain": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                        "CHALLENGE",
+                                                                                        "TROUNCE",
+                                                                                        "ONE-TIME",
+                                                                                        "ABYSS",
+                                                                                        "QUEST",
+                                                                                        "EVENT"
+                                                                                    ]
+                                                                                },
+                                                                                "condition": {
+                                                                                    "type": "string",
+                                                                                    "const": "COMBAT"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "domain",
+                                                                                "type"
+                                                                            ],
+                                                                            "additionalProperties": false
                                                                         }
                                                                     },
                                                                     "quest": {

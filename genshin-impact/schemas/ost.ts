@@ -30,21 +30,20 @@ interface GenshinImpactOSTSong {
   related?: string[];
 }
 
+type MaybeArray<T> = T | T[];
+
 interface GenshinImpactOSTSongUsages {
   world?: {
     location?: string | string[];
     area?: string;
     region: string;
-    time?: "DAY" | "NIGHT";
-    weather?: "RAIN";
+    condition?: MaybeArray<"DAY" | "NIGHT" | "RAIN" | "COMBAT" | "WAVERIDER">;
   }[];
-  worldCombat?: {
-    location?: string | string[];
-    area?: string;
-    region: string;
+  domain?: {
+    domain: string;
+    type: "CHALLENGE" | "TROUNCE" | "ONE-TIME" | "ABYSS" | "QUEST" | "EVENT";
+    condition?: "COMBAT";
   }[];
-  domain?: string[];
-  domainCombat?: string[];
   quest?: {
     type: "ARCHON" | "STORY" | "EVENT";
     chapter: string;

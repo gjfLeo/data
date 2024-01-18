@@ -49,7 +49,7 @@ albums:
               - location: 晨曦酒庄
                 area: 苍风高地
                 region: 蒙德
-                time: DAY
+                condition: DAY
           links:
             necId: 1455706951
             qqId: 000zAZ8Q1nhqip
@@ -130,8 +130,9 @@ albums:
             母带 Mastering Engineer: John Webber
             出品 Produced by: HOYO-MiX
           usages:
-            domainCombat:
-              - 深入风龙废墟
+            domain:
+              - domain: 深入风龙废墟
+                type: TROUNCE
           links:
             necId: 1455706968
             qqId: 002VbORV0Kzpp4
@@ -153,7 +154,7 @@ albums:
               - location: 晨曦酒庄
                 area: 苍风高地
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
             spincrystal: 3
           links:
             necId: 1455706952
@@ -176,7 +177,7 @@ albums:
               - location: 蒙德城
                 area: 坠星山谷
                 region: 蒙德
-                time: DAY
+                condition: DAY
             quest:
               - type: ARCHON
                 chapter: 序章
@@ -222,7 +223,7 @@ albums:
           usages:
             world:
               - region: 蒙德
-                time: DAY
+                condition: DAY
             spincrystal: 0
           links:
             necId: 1455706956
@@ -246,7 +247,7 @@ albums:
                 area: 坠星山谷
                 region: 蒙德
               - region: 蒙德
-                weather: RAIN
+                condition: RAIN
             spincrystal: 5
           links:
             necId: 1455706955
@@ -292,9 +293,11 @@ albums:
             母带: John Webber
             出品: HOYO-MiX
           usages:
-            worldCombat:
+            world:
               - region: 蒙德
+                condition: COMBAT
               - region: 金苹果群岛
+                condition: COMBAT
           links:
             necId: 1455706971
             qqId: 0039lga625qoXa
@@ -446,7 +449,7 @@ albums:
   #           nameEn: Liyue
   #           usages:
   #             world:
-  #                 time: DAY
+  #                 condition: DAY
   #               area: 璃月 璃月港
   #         - index: 2
   #           name: 杯中明月
@@ -460,7 +463,7 @@ albums:
   #             pipa: 施文卿
   #           usages:
   #             world:
-  #                 time: DAY
+  #                 condition: DAY
   #               area: 璃月 璃月港
   #         - index: 3
   #           name: 商港的闲暇
@@ -484,7 +487,7 @@ albums:
   #           nameEn: Sun Rises in Liyue
   #           usages:
   #             world:
-  #                 time: NIGHT
+  #                 condition: NIGHT
   #               area: 璃月 璃月港
   #         - index: 6
   #           name: 晚安，璃月
@@ -503,14 +506,14 @@ albums:
   #           nameEn: Call It a Day in Liyue
   #           usages:
   #             world:
-  #                 time: NIGHT
+  #                 condition: NIGHT
   #               area: 璃月 璃月港
   #         - index: 8
   #           name: 璃月的晴空
   #           nameEn: Clear Sky Over Liyue
   #           usages:
   #             world:
-  #                 time: NIGHT
+  #                 condition: NIGHT
   #               area: 璃月 璃月港
   #             world:
   #               area: 璃月 云来海
@@ -615,7 +618,7 @@ albums:
   #             piano: 陈致逸
   #           usages:
   #             world:
-  #                 time: NIGHT
+  #                 condition: NIGHT
   #               area: 璃月 轻策庄
   #     - number: 3
   #       name: 璃月鏖战录
@@ -647,7 +650,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833805536
             qqId: 004dW6cv09FHH8
@@ -667,7 +670,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833806442
             qqId: 001gIWBU1FWI0F
@@ -683,7 +686,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: DAY
+                condition: DAY
           links:
             necId: 1833805557
             qqId: 0032yqXQ2iMhA9
@@ -702,7 +705,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833806429
             qqId: 000IK4fU1G1Ykz
@@ -724,7 +727,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833805537
             qqId: 003ol4C517BJ6a
@@ -744,7 +747,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833806443
             qqId: 003eirMg3SNozM
@@ -783,7 +786,7 @@ albums:
               - location: 星荧洞窟
                 area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833805539
             qqId: 003Xmu0f0ulaso
@@ -843,7 +846,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833806431
             qqId: 001esNxC40zdAO
@@ -864,7 +867,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: DAY
+                condition: DAY
           links:
             necId: 1833806430
             qqId: 000EPBcK2o57jA
@@ -924,7 +927,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: DAY
+                condition: DAY
           links:
             necId: 1833805560
             qqId: 0038graJ4EDYZG
@@ -942,7 +945,7 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: NIGHT
+                condition: NIGHT
           links:
             necId: 1833806441
             qqId: 00271EZD1ea8hC
@@ -962,82 +965,229 @@ albums:
             world:
               - area: 龙脊雪山
                 region: 蒙德
-                time: DAY
+                condition: DAY
           links:
             necId: 1833805540
             qqId: 001vhy3S1k2SFO
-  # - name: 珍珠之歌
-  #   nameEn: The Shimmering Voyage
-  #   releaseDate: 2021-07-19
-  #   discs:
-  #     - number: 1
-  #       name: 海岛童话
-  #       nameEn: Fairytale of the Isles
-  #       songs: []
-  #     - number: 2
-  #       name: 烁烁明星
-  #       nameEn: Blazing Stars
-  #       songs:
-  #         - index: 23
-  #           name: 蒲苇如丝
-  #           nameEn: Lovers' Oath
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: 张洁敏
-  #             orchestra: 上海交响乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #     - number: 3
-  #       name: 激流与岩壑
-  #       nameEn: Roar of the Formidable
-  #       songs:
-  #         - index: 1
-  #           name: 不冻的激浪
-  #           nameEn: All-Conquering Tide
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 国际首席爱乐乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:_BATTLE
-  #               area: 蒙德 龙脊雪山
-  #         - index: 2
-  #           name: 永无谢幕的演出
-  #           nameEn: Never-Ending Performance
-  #     - number: 4
-  #       name: 陌客的旅途
-  #       nameEn: A Stranger's Sojourn
-  #       songs:
-  #         - number: 67
-  #           name: 山巅雪国的记忆
-  #           nameEn: Tales From the Snow Mountain
-  #           credits:
-  #             作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-  #             合唱指挥 Choir Conductor: 齐放 Fang Qi
-  #             乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-  #             合唱 Choir: Sfuture艺术团@Shanghai Sfuture Art Group
-  #             钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
-  #             弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
-  #             录音棚 Recording Studio: 上海广播大厦 Shanghai Media Group、金田录音棚 Jintian Recording Studio
-  #             录音师 Recording Engineer: 莫家伟 Jiawei Mo、王小四 Xiaosi Wang
-  #             混音师 Mixing Engineer: 黄巍 Zach Huang
-  #             母带制作 Mastering Engineer: 黄巍 Zach Huang
-  #             出品 Produced by: HOYO-MiX
-  #           usages:
-  #             - type: VIDEO
-  #               videoType: PV
-  #               video:
-  #                 name: 「山巅雪国的记忆」：《原神》龙脊雪山OST印象曲MV
-  #                 bilibiliBv: BV16v41187dP
-  #           links:
-  #             necId: 1861579836
-  #             qqId: 001esjC24DpI7d
-  #           related:
-  #             - 漩涡、落星与冰山/冰下的碎梦
-  #             - 漩涡、落星与冰山/皎洁的笑颜
-  #             - 漩涡、落星与冰山/银白的希望
-  #             - 漩涡、落星与冰山/雪掩的往事
+  - name: 珍珠之歌
+    nameEn: The Shimmering Voyage
+    releaseDate: 2021-07-19
+    discs:
+      - number: 1
+        name: 海岛童话
+        nameEn: Fairytale of the Isles
+        songs:
+          - number: 1
+            name: 希望的航程
+            nameEn: What a Hopeful Voyage
+            credits:
+              作曲 Composer: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: WAVERIDER
+            links:
+              necId: 1861403401
+            related:
+              - 珍珠之歌/希望的和风
+          - number: 2
+            name: 广袤的晴空
+            nameEn: Vast and Blue
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: [WAVERIDER, DAY]
+            links:
+              necId: 1861403399
+            related:
+              - 珍珠之歌/广袤的晴空
+              - 珍珠之歌/微波轻摇
+          - number: 3
+            name: 微波轻摇
+            nameEn: Mesmerizing Waves
+            credits:
+              作曲 Composer: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: [WAVERIDER, NIGHT]
+            links:
+              necId: 1861403400
+            related:
+              - 珍珠之歌/广袤的晴空
+              - 珍珠之歌/微波轻摇
+          - number: 4
+            name: 远航入梦
+            nameEn: Journey Into Sweet Dreams
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 金苹果群岛
+                  condition: [WAVERIDER, NIGHT]
+            links:
+              necId: 1861403397
+            related:
+              - 珍珠之歌/广袤的晴空
+              - 珍珠之歌/微波轻摇
+      - number: 2
+        name: 烁烁明星
+        nameEn: Blazing Stars
+        songs:
+          - number: 31
+            name: 希望的和风
+            nameEn: A Yearning Breeze
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              指挥 Conductor: 张洁敏 Jiemin Zhang
+              乐队 Orchestra: 上海交响乐团 Shanghai Symphony Orchestra
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              录音棚 Recording Studio: 上海交响乐团音乐厅 Shanghai Symphony Hall
+              音乐监制 Music Supervisor: 安栋 Dong An
+              录音师 Recording Engineer: 陆晓幸 Xiaoxing Lu
+              声音工程师 Sound Engineer: 房大磊 Dalei Fang
+              混音师 Mixing Engineer: Nick Wollage
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              quest:
+                - type: STORY
+                  chapter: 歌仙之章
+                  act: 第一幕 若你困于无风之地
+                  part: 若你困于无风之地
+            links:
+              necId: 1861577582
+          - number: 33
+            name: 重归青天的歌
+            nameEn: Welcome Back, My Companion
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              指挥 Conductor: 张洁敏 Jiemin Zhang
+              乐队 Orchestra: 上海交响乐团 Shanghai Symphony Orchestra
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              录音棚 Recording Studio: 上海交响乐团音乐厅 Shanghai Symphony Hall
+              音乐监制 Music Supervisor: 安栋 Dong An
+              录音师 Recording Engineer: 陆晓幸 Xiaoxing Lu
+              声音工程师 Sound Engineer: 房大磊 Dalei Fang
+              混音师 Mixing Engineer: Nick Wollage
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              quest:
+                - type: ARCHON
+                  chapter: 序章
+                  act: 第三幕 巨龙与自由之歌
+                  part: 为了青色的身影
+            links:
+              necId: 1861576562
+            related:
+              - 珍珠之歌/希望的和风
+              - 风与牧歌之城/同伴的力量
+      #     - number: 3
+      #       name: 激流与岩壑
+      #       nameEn: Roar of the Formidable
+      #       songs:
+      #         - index: 1
+      #           name: 不冻的激浪
+      #           nameEn: All-Conquering Tide
+      #           credits:
+      #             composer: 陈致逸
+      #             orchestra: 国际首席爱乐乐团
+      #             orchestrator: 陈致逸
+      #             piano: 陈致逸
+      #           usages:
+      #             world:_BATTLE
+      #               area: 蒙德 龙脊雪山
+      #         - index: 2
+      #           name: 永无谢幕的演出
+      #           nameEn: Never-Ending Performance
+      - number: 4
+        name: 陌客的旅途
+        nameEn: A Stranger's Sojourn
+        songs:
+          - number: 65
+            name: 盛夏乐园
+            nameEn: Summertime Wonderland
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen (HOYO-MiX)
+              乐队配器 Orchestrator: 何迦德 Jiade He
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              quest:
+                - type: EVENT
+                  chapter: 盛夏！海岛？大冒险！
+                  act: 第二幕 夏日征程！千万要注意安全
+            links:
+              necId: 1861579817
+            related:
+              - 珍珠之歌/希望的航程
+          - number: 67
+            name: 山巅雪国的记忆
+            nameEn: Tales From the Snow Mountain
+            credits:
+              作曲: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              合唱指挥 Choir Conductor: 齐放 Fang Qi
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              合唱 Choir: Sfuture艺术团@Shanghai Sfuture Art Group
+              钢琴 Piano: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              弦乐 Strings: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+              录音棚 Recording Studio: 上海广播大厦 Shanghai Media Group、金田录音棚 Jintian Recording Studio
+              录音师 Recording Engineer: 莫家伟 Jiawei Mo、王小四 Xiaosi Wang
+              混音师 Mixing Engineer: 黄巍 Zach Huang
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              video:
+                name: 「山巅雪国的记忆」：《原神》龙脊雪山OST印象曲MV
+                bilibiliBv: BV16v41187dP
+            links:
+              necId: 1861579836
+              qqId: 001esjC24DpI7d
+            related:
+              - 漩涡、落星与冰山/冰下的碎梦
+              - 漩涡、落星与冰山/皎洁的笑颜
+              - 漩涡、落星与冰山/银白的希望
+              - 漩涡、落星与冰山/雪掩的往事
   # - name: 寂远无妄之国
   #   nameEn: Realm of Tranquil Eternity
   #   releaseDate: 2021-09-22
@@ -1248,11 +1398,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956543003
               qqId: 000t9e790uWUvY
@@ -1280,11 +1430,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
             links:
               necId: 1956541070
               qqId: 003CssvG4aygjm
@@ -1310,11 +1460,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
             links:
               necId: 1956541071
               qqId: 001CXmMa045ftM
@@ -1339,11 +1489,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956541072
               qqId: 004Ut0gN2ztgWW
@@ -1366,11 +1516,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
             links:
               necId: 1956543004
               qqId: 0042ka3k3h9Etr
@@ -1395,11 +1545,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956541073
               qqId: 000lQk9m1PNFMZ
@@ -1424,11 +1574,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956543005
               qqId: 000nAGRX36XPR1
@@ -1453,11 +1603,11 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
             links:
               necId: 1956543006
               qqId: 001318c53zPEbN
@@ -1483,7 +1633,7 @@ albums:
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956543007
               qqId: 000bxFTX31uwbi
@@ -1507,7 +1657,7 @@ albums:
                 - location: 采樵谷
                   area: 层岩巨渊
                   region: 璃月
-                  time: NIGHT
+                  condition: NIGHT
             links:
               necId: 1956541074
               qqId: 002K041C0qTqO9
@@ -1532,7 +1682,7 @@ albums:
               world:
                 - area: 层岩巨渊
                   region: 璃月
-                  time: DAY
+                  condition: DAY
             links:
               necId: 1956543008
               qqId: 004GDp0u2uVHc2
@@ -1600,7 +1750,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541076
@@ -1619,11 +1769,16 @@ albums:
               出品 Produced by: HOYO-MiX
             usages:
               domain:
-                - 鹤径折旋之所
-                - 机符遁藏之城
-                - 迷错幻渺之境
-                - 烈火踏歌行
-                - 旧梦痴缠之故地
+                - domain: 鹤径折旋之所
+                  type: QUEST
+                - domain: 机符遁藏之城
+                  type: QUEST
+                - domain: 迷错幻渺之境
+                  type: QUEST
+                - domain: 烈火踏歌行
+                  type: EVENT
+                - domain: 旧梦痴缠之故地
+                  type: QUEST
             links:
               necId: 1956541077
               qqId: 001rAhxX2fzhfv
@@ -1649,7 +1804,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543010
@@ -1668,11 +1823,16 @@ albums:
               出品 Produced by: HOYO-MiX
             usages:
               domain:
-                - 鹤径折旋之所
-                - 机符遁藏之城
-                - 迷错幻渺之境
-                - 烈火踏歌行
-                - 旧梦痴缠之故地
+                - domain: 鹤径折旋之所
+                  type: QUEST
+                - domain: 机符遁藏之城
+                  type: QUEST
+                - domain: 迷错幻渺之境
+                  type: QUEST
+                - domain: 烈火踏歌行
+                  type: EVENT
+                - domain: 旧梦痴缠之故地
+                  type: QUEST
             links:
               necId: 1956541078
               qqId: 001Y9BeE0U6Noj
@@ -1698,7 +1858,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541079
@@ -1723,7 +1883,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543011
@@ -1747,7 +1907,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543012
@@ -1766,11 +1926,16 @@ albums:
               出品 Produced by: HOYO-MiX
             usages:
               domain:
-                - 鹤径折旋之所
-                - 机符遁藏之城
-                - 迷错幻渺之境
-                - 烈火踏歌行
-                - 旧梦痴缠之故地
+                - domain: 鹤径折旋之所
+                  type: QUEST
+                - domain: 机符遁藏之城
+                  type: QUEST
+                - domain: 迷错幻渺之境
+                  type: QUEST
+                - domain: 烈火踏歌行
+                  type: EVENT
+                - domain: 旧梦痴缠之故地
+                  type: QUEST
             links:
               necId: 1956541080
             related:
@@ -1795,7 +1960,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543013
@@ -1819,7 +1984,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541081
@@ -1843,7 +2008,7 @@ albums:
                       地下水泽,
                       巨渊深底,
                     ]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541082
@@ -1861,11 +2026,16 @@ albums:
               出品 Produced by: HOYO-MiX
             usages:
               domain:
-                - 鹤径折旋之所
-                - 机符遁藏之城
-                - 迷错幻渺之境
-                - 烈火踏歌行
-                - 旧梦痴缠之故地
+                - domain: 鹤径折旋之所
+                  type: QUEST
+                - domain: 机符遁藏之城
+                  type: QUEST
+                - domain: 迷错幻渺之境
+                  type: QUEST
+                - domain: 烈火踏歌行
+                  type: EVENT
+                - domain: 旧梦痴缠之故地
+                  type: QUEST
             links:
               necId: 1956543014
           - number: 28
@@ -1884,7 +2054,7 @@ albums:
             usages:
               world:
                 - location: 无名遗迹（中心区域）
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543015
@@ -1908,7 +2078,7 @@ albums:
             usages:
               world:
                 - location: 无名遗迹（中心区域）
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543016
@@ -1928,7 +2098,7 @@ albums:
             usages:
               world:
                 - location: [无名遗迹, 颠倒古城]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543017
@@ -1952,7 +2122,7 @@ albums:
             usages:
               world:
                 - location: [无名遗迹, 颠倒古城]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541083
@@ -1972,7 +2142,7 @@ albums:
             usages:
               world:
                 - location: 荧光狭道
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543018
@@ -1995,7 +2165,7 @@ albums:
             usages:
               world:
                 - location: 荧光狭道
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956541084
@@ -2020,7 +2190,7 @@ albums:
             usages:
               world:
                 - location: 灵石
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
             links:
               necId: 1956543019
@@ -2046,11 +2216,19 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              domainCombat:
-                - 鹤径折旋之所
-                - 机符遁藏之城
-                - 迷错幻渺之境
-                - 旧梦痴缠之故地
+              domain:
+                - domain: 鹤径折旋之所
+                  type: QUEST
+                  condition: COMBAT
+                - domain: 机符遁藏之城
+                  type: QUEST
+                  condition: COMBAT
+                - domain: 迷错幻渺之境
+                  type: QUEST
+                  condition: COMBAT
+                - domain: 旧梦痴缠之故地
+                  type: QUEST
+                  condition: COMBAT
             links:
               necId: 1956543020
             related:
@@ -2068,13 +2246,15 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              worldCombat:
+              world:
                 - location:
                     [临时主矿道, 崎岖石厅, 巨渊主矿区, 巨蛇岩洞, 地下水泽]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
-              domainCombat:
-                - 岩中幽谷
+                  condition: COMBAT
+              domain:
+                - domain: 岩中幽谷
+                  type: CHALLENGE
             links:
               necId: 1956543021
           - number: 37
@@ -2090,10 +2270,11 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              worldCombat:
+              world:
                 - location: 无名遗迹（中心区域）
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
+                  condition: COMBAT
             links:
               necId: 1956543022
             related:
@@ -2113,10 +2294,11 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              worldCombat:
+              world:
                 - location: [无名遗迹, 颠倒古城]
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
+                  condition: COMBAT
             links:
               necId: 1956543023
             related:
@@ -2136,10 +2318,11 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              worldCombat:
+              world:
                 - location: 荧光狭道
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
+                  condition: COMBAT
             links:
               necId: 1956543024
             related:
@@ -2160,10 +2343,11 @@ albums:
               母带制作 Mastering Engineer: 黄巍 Zach Huang
               出品 Produced by: HOYO-MiX
             usages:
-              worldCombat:
+              world:
                 - location: 灵石
-                  area: 层岩巨渊：地下矿区
+                  area: 层岩巨渊·地下矿区
                   region: 璃月
+                  condition: COMBAT
             links:
               necId: 1956543025
   # - name: 珍珠之歌2
@@ -2179,10 +2363,36 @@ albums:
   #     - name: 世路风波
   #       nameEn: A Turbulent Peregrination
   #       songs: []
-  # - name: 流星的轨迹
-  #   nameEn: Footprints of the Traveler
-  #   releaseDate: 2022-09-20
-  #   songs: []
+  - name: 流星的轨迹
+    nameEn: Footprints of the Traveler
+    releaseDate: 2022-09-20
+    discs:
+      songs:
+        - number: 6
+          name: 盛夏！海岛？大冒险！
+          nameEn: Midsummer Island Adventure
+          credits:
+            作曲: 苑迪萌 Dimeng Yuan (HOYO-MiX)/陈致逸 Yu-Peng Chen (HOYO-MiX)
+            编曲 Arranger: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+            乐队 Orchestra: 国际首席爱乐乐团 International Master Philharmonic Orchestra
+            尤克里里 Ukulele: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+            电吉他 Electric Guitar: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+            录音棚 Recording Studio: 金田录音棚 Jintian Recording Studio
+            录音师 Recording Engineer: 王小四 Xiaosi Wang
+            混音师 Mixing Engineer: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+            母带制作 Mastering Engineer: 苑迪萌 Dimeng Yuan (HOYO-MiX)
+            出品 Produced by: HOYO-MiX
+          usages:
+            video:
+              name: 1.6版本PV：「盛夏！海岛？大冒险！」
+              bilibiliBv: BV15v411V7ib
+          links:
+            necId: 1983465850
+          related:
+            - 闪耀的群星/真红骑士，出发！
+            - 珍珠之歌/希望的航程
+            - 珍珠之歌/谨慎的探索
+            - 闪耀的群星2/荒波椛叶
   # - name: 智妙明论之林
   #   nameEn: Forest of Jnana and Vidya
   #   releaseDate: 2022-10-20
