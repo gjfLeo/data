@@ -11,6 +11,9 @@
     "Location": {
       "type": "object",
       "properties": {
+        "index": {
+          "type": "number"
+        },
         "name": {
           "type": "string"
         },

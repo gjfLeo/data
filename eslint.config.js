@@ -1,5 +1,3 @@
-const antfu = require('@antfu/eslint-config').default
+import gjfleo from "@gjfleo/eslint-config";
 
-module.exports = antfu({
-
-})
+export default gjfleo({});

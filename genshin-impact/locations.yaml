@@ -3,7 +3,8 @@
   nameEn: Mondstadt
   level: 1
   children:
-    - level: 2
+    - index: 1
+      level: 2
       children:
         - name: 坠星山谷
           nameEn: Starfall Valley
@@ -24,7 +25,8 @@
         - name: 风啸山坡
           nameEn: Galesong Hill
           level: 3
-    - level: 2
+    - index: 2
+      level: 2
       children:
         - name: 龙脊雪山
           nameEn: Dragonspine
@@ -33,7 +35,8 @@
   nameEn: Liyue
   level: 1
   children:
-    - level: 2
+    - index: 1
+      level: 2
       children:
         - name: 碧水原
           nameEn: Bishui Plain
@@ -50,7 +53,8 @@
         - name: 璃沙郊
           nameEn: Lisha
           level: 3
-    - name: 层岩巨渊
+    - index: 2
+      name: 层岩巨渊
       nameEn: The Chasm
       level: 2
       children:
@@ -58,14 +62,15 @@
           nameEn: The Chasm
           level: 3
         - name: 层岩巨渊·地下矿区
-          nameEn: 'The Chasm: Underground Mines'
+          nameEn: "The Chasm: Underground Mines"
           level: 3
-    - name: 沉玉谷
+    - index: 3
+      name: 沉玉谷
       nameEn: Chenyu Vale
       level: 2
       children:
         - name: 沉玉谷·上谷
-          nameEn: 'Chenyu Vale: Upper Vale'
+          nameEn: "Chenyu Vale: Upper Vale"
           level: 3
           children:
             - name: 翘英庄
@@ -87,7 +92,7 @@
               nameEn: Mt. Lingmeng
               level: 4
         - name: 沉玉谷·南陵
-          nameEn: 'Chenyu Vale: Southern Mountain'
+          nameEn: "Chenyu Vale: Southern Mountain"
           level: 3
           children:
             - name: 古茶树坡
