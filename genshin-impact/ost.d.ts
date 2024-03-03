@@ -10,7 +10,7 @@ interface GenshinImpactOSTAlbum {
 }
 
 interface GenshinImpactOSTSingleDisc {
-  number: 1;
+  number: 0;
   songs: GenshinImpactOSTSong[];
 }
 interface GenshinImpactOSTDisc {
@@ -24,9 +24,9 @@ interface GenshinImpactOSTSong {
   number: number;
   name: string;
   nameEn: string;
-  credits: GenshinImpactOSTSongCredits;
-  usages: GenshinImpactOSTSongUsages;
-  links: GenshinImpactOSTSongLinks;
+  credits?: GenshinImpactOSTSongCredits;
+  usages?: GenshinImpactOSTSongUsages;
+  links?: GenshinImpactOSTSongLinks;
   notes?: string | string[];
   related?: string[];
 }
@@ -50,7 +50,7 @@ interface GenshinImpactOSTSongUsages {
     condition?: "COMBAT";
   }[];
   quest?: {
-    type: "ARCHON" | "STORY" | "EVENT";
+    type: "ARCHON" | "STORY" | "EVENT" | "WORLD";
     chapter: string;
     act: string;
     part?: string | string[];

@@ -61,7 +61,7 @@
       "properties": {
         "number": {
           "type": "number",
-          "const": 1
+          "const": 0
         },
         "songs": {
           "type": "array",
@@ -120,10 +120,7 @@
       "required": [
         "number",
         "name",
-        "nameEn",
-        "credits",
-        "usages",
-        "links"
+        "nameEn"
       ],
       "additionalProperties": false
     },
@@ -281,7 +278,8 @@
                 "enum": [
                   "ARCHON",
                   "STORY",
-                  "EVENT"
+                  "EVENT",
+                  "WORLD"
                 ]
               },
               "chapter": {

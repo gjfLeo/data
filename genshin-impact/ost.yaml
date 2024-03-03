@@ -4,7 +4,7 @@ albums:
     nameEn: The Wind and The Star Traveler
     releaseDate: 2020-06-19
     discs:
-      - number: 1
+      - number: 0
         songs:
           - number: 1
             name: 原神
@@ -392,249 +392,260 @@ albums:
             # TODO
             related:
               - 风与异乡人/原神
-  # - name: 风与牧歌之城
-  #   nameEn: City of Winds and Idylls
-  #   releaseDate: 2020-09-28
-  #   discs:
-  #     - number: 1
-  #       name: 风与牧歌之城
-  #       nameEn: City of Winds and Idylls
-  #       songs:
-  #         - index: 24
-  #           name: 同伴的力量
-  #           nameEn: Tender Strength
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: Robert Ziegler
-  #             orchestra: 伦敦爱乐乐团
-  #     - number: 2
-  #       name: 蒲公英的国度
-  #       nameEn: The Horizon of Dandelion
-  #       songs:
-  #         - index: 20
-  #           name: 希望的新一天
-  #           nameEn: A New Day with Hope
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: Robert Ziegler
-  #             orchestra: 伦敦爱乐乐团
-  #         - index: 26
-  #           name: 永恒的回忆
-  #           nameEn: Eternal Anamnesis (Genshin Impact Main Theme Var.)
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: Robert Ziegler
-  #             orchestra: 伦敦爱乐乐团
-  #           usages:
-  #             - type: VIDEO
-  #               videoType: PV
-  #               video:
-  #                 name: 温迪角色PV-「四方之风」
-  #                 bilibiliBv: BV1xk4y117tg
-  #           related:
-  #             - 原神
-  #     - number: 3
-  #       name: 蒙德战记
-  #       nameEn: Saga of the West Wind
-  #       songs: []
-  # - name: 皎月云间之梦
-  #   nameEn: Jade Moon Upon a Sea of Clouds
-  #   releaseDate: 2020-11-06
-  #   discs:
-  #     - number: 1
-  #       name: 琉璃明月照海平
-  #       nameEn: Glazed Moon Over the Tides
-  #       songs:
-  #         - index: 1
-  #           name: 璃月
-  #           nameEn: Liyue
-  #           usages:
-  #             world:
-  #                 condition: DAY
-  #               area: 璃月 璃月港
-  #         - index: 2
-  #           name: 杯中明月
-  #           nameEn: Moon in One's Cup
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: 张洁敏
-  #             orchestra: 上海交响乐团
-  #             orchestrator: 陈致逸
-  #             guzheng: [陆莎莎, 赵墨佳]
-  #             pipa: 施文卿
-  #           usages:
-  #             world:
-  #                 condition: DAY
-  #               area: 璃月 璃月港
-  #         - index: 3
-  #           name: 商港的闲暇
-  #           nameEn: Relaxation in Liyue
-  #           usages:
-  #             world:
-  #               timeDuration: 17:00 ~ 18:30
-  #               area: 璃月 璃月港
-  #         - index: 4
-  #           name: 环佩凭栏望千帆
-  #           nameEn: Maiden's Longing
-  #           usages:
-  #             world:
-  #               area: 璃月 云来海
-  #             - type: VIDEO
-  #               # videoType: PV
-  #               # video:
-  #               #   name: 甘雨角色PV-「璃月港的一夜」
-  #         - index: 5
-  #           name: 璃月的日出
-  #           nameEn: Sun Rises in Liyue
-  #           usages:
-  #             world:
-  #                 condition: NIGHT
-  #               area: 璃月 璃月港
-  #         - index: 6
-  #           name: 晚安，璃月
-  #           nameEn: Good Night, Liyue
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: Robert Ziegler
-  #             orchestra: 伦敦爱乐乐团
-  #             orchestrator: 陈致逸
-  #           usages:
-  #             world:
-  #               timeDuration: 05:00 ~ 07:00
-  #               area: 璃月 璃月港
-  #         - index: 7
-  #           name: 璃月的一日将尽
-  #           nameEn: Call It a Day in Liyue
-  #           usages:
-  #             world:
-  #                 condition: NIGHT
-  #               area: 璃月 璃月港
-  #         - index: 8
-  #           name: 璃月的晴空
-  #           nameEn: Clear Sky Over Liyue
-  #           usages:
-  #             world:
-  #                 condition: NIGHT
-  #               area: 璃月 璃月港
-  #             world:
-  #               area: 璃月 云来海
-  #         - index: 9
-  #           name: 晶莹可掇
-  #           nameEn: A Transparent Moon
-  #           credits:
-  #             composer: 陈致逸
-  #             conductor: 张洁敏
-  #             orchestra: 上海交响乐团
-  #             orchestrator: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 璃月 琉璃亭
-  #             world:
-  #               area: 璃月 新月轩
-  #         - index: 10
-  #           name: 北国的宝库
-  #           nameEn: Treasury From the Northland
-  #           usages:
-  #             world:
-  #               area: 璃月 北国银行
-  #         - index: 11
-  #           name: 品茗尝清心
-  #           nameEn: Cozy Leisure Time
-  #         - index: 12
-  #           name: 美梦抚归人
-  #           nameEn: Sojourner's Sweet Dream
-  #         - index: 13
-  #           name: 逶迤绿水长
-  #           nameEn: Winding River
-  #         - index: 14
-  #           name: 轻波微荡
-  #           nameEn: Mild Waves
-  #         - index: 15
-  #           name: 钓客漫歌
-  #           nameEn: Rhythm Amidst the Reeds
-  #         - index: 16
-  #           name: 源流汇响
-  #           nameEn: Flows of Jade-Like Water
-  #         - index: 17
-  #           name: 幽谷多芳草
-  #           nameEn: Blossoms Across the Valley
-  #         - index: 18
-  #           name: 多情东逝
-  #           nameEn: Flow of Mildness
-  #         - index: 19
-  #           name: 山阴漫步
-  #           nameEn: Stroll in the Shadows
-  #         - index: 20
-  #           name: 古道笛声
-  #           nameEn: Melodious Flute
-  #         - index: 21
-  #           name: 清昼细雨
-  #           nameEn: Gentle Rain
-  #         - index: 22
-  #           name: 竹林的轻语
-  #           nameEn: Vague Whispers
-  #         - index: 23
-  #           name: 不复回的传说
-  #           nameEn: Legends Swept Away
-  #         - index: 24
-  #           name: 归客的轻歌
-  #           nameEn: Joy of Returning
-  #         - index: 25
-  #           name: 离原之草
-  #           nameEn: Loner's Departure
-  #         - index: 26
-  #           name: 原上狐鸣
-  #           nameEn: Foxes at Play
-  #         - index: 27
-  #           name: 怀乡的原野
-  #           nameEn: Plain of Nostalgia
-  #         - index: 28
-  #           name: 希望的明日
-  #           nameEn: Another Hopeful Tomorrow
-  #         - index: 29
-  #           name: 小小的光
-  #           nameEn: This Little Light of Mine
-  #         - index: 30
-  #           name: 宽怀的传说
-  #           nameEn: Legend of Redemption
-  #         - index: 31
-  #           name: 暧暧含光
-  #           nameEn: Hazy Light
-  #         - index: 32
-  #           name: 潮汐浮梦
-  #           nameEn: Scattered Amongst the Tides
-  #         - index: 33
-  #           name: 随海风而来
-  #           nameEn: Rhythms From the Conch
-  #     - number: 2
-  #       name: 山巅清心云间月
-  #       nameEn: Shimmering Sea of Clouds and Moonlight
-  #       songs:
-  #         - index: 2
-  #           name: 不再年轻的村庄
-  #           nameEn: The Fading Stories
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #                 condition: NIGHT
-  #               area: 璃月 轻策庄
-  #     - number: 3
-  #       name: 璃月鏖战录
-  #       nameEn: Battles of Liyue
-  #       songs: []
-  # - name: 闪耀的群星
-  #   nameEn: The Stellar Moments
-  #   releaseDate: 2021-02-04
-  #   discs:
-  #     songs: []
+  - name: 风与牧歌之城
+    nameEn: City of Winds and Idylls
+    releaseDate: 2020-09-28
+    discs:
+      - number: 1
+        name: 风与牧歌之城
+        nameEn: City of Winds and Idylls
+        songs: []
+      - number: 2
+        name: 蒲公英的国度
+        nameEn: The Horizon of Dandelion
+        songs:
+          - number: 26
+            name: 永恒的回忆
+            nameEn: Eternal Anamnesis (Genshin Impact Main Theme Var.)
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
+            usages:
+              video:
+                name: 温迪角色PV-「四方之风」
+                bilibiliBv: BV1xk4y117tg
+            related:
+              - 风与异乡人/原神
+      - number: 3
+        name: 蒙德战记
+        nameEn: Saga of the West Wind
+        songs: []
+  - name: 皎月云间之梦
+    nameEn: Jade Moon Upon a Sea of Clouds
+    releaseDate: 2020-11-06
+    discs:
+      - number: 1
+        name: 琉璃明月照海平
+        nameEn: Glazed Moon Over the Tides
+        songs:
+          - number: 1
+            name: 璃月
+            nameEn: Liyue
+            credits:
+              composer: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              指挥 Conductor: Robert Ziegler
+              乐队 Orchestra: 伦敦爱乐乐团 London Philharmonic Orchestra
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              小提琴 Violin: Philippe Honore
+              笛子 Dizi: 屠化冰 Huabing Tu
+              录音棚 Recording Studio: Air Studios
+              录音师 Recording Engineer: Nick Wollage
+              混音师 Mixing Engineer: Nick Wollage
+              混音助理 Mixing Assistant: Laurence Anslow
+              母带制作 Mastering Engineer: John Webber
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: DAY
+          - number: 2
+            name: 杯中明月
+            nameEn: Moon in One's Cup
+            credits:
+              composer: 陈致逸
+              conductor: 张洁敏
+              orchestra: 上海交响乐团
+              orchestrator: 陈致逸
+              guzheng: [陆莎莎, 赵墨佳]
+              pipa: 施文卿
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: DAY
+          - number: 3
+            name: 商港的闲暇
+            nameEn: Relaxation in Liyue
+            credits:
+              composer: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              指挥 Conductor: 张洁敏 Jiemin Zhang
+              乐队 Orchestra: 上海交响乐团 Shanghai Symphony Orchestra
+              乐队配器 Orchestrator: 陈致逸 Yu-Peng Chen(HOYO-MiX)
+              笛子 Dizi: 屠化冰 Huabing Tu
+              古筝 Guzheng: 陆莎莎 Shasha Lu
+              琵琶 Pipa: 施文卿 Wenqing Shi
+              录音棚 Recording Studio: 上海交响乐团音乐厅 Shanghai Symphony Hall
+              音乐监制 Music Supervisor: 安栋 Dong An
+              录音师 Recording Engineer: 陆晓幸 Xiaoxing Lu
+              声音工程师 Sound Engineer: 房大磊 Dalei Fang
+              混音师 Mixing Engineer: Nick Wollage
+              混音助理 Mixing Assistant: Tom Bailey
+              母带制作 Mastering Engineer: John Webber
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: DAY
+          - number: 4
+            name: 环佩凭栏望千帆
+            nameEn: Maiden's Longing
+            usages:
+              world:
+                - area: 云来海
+                  region: 璃月
+              video:
+                name: 甘雨角色PV-「璃月港的一夜」
+                bilibiliBv: BV1ua4y1H714
+          - number: 5
+            name: 璃月的日出
+            nameEn: Sun Rises in Liyue
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: NIGHT
+          - number: 6
+            name: 晚安，璃月
+            nameEn: Good Night, Liyue
+            credits:
+              composer: 陈致逸
+              conductor: Robert Ziegler
+              orchestra: 伦敦爱乐乐团
+              orchestrator: 陈致逸
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+          - number: 7
+            name: 璃月的一日将尽
+            nameEn: Call It a Day in Liyue
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: NIGHT
+          - number: 8
+            name: 璃月的晴空
+            nameEn: Clear Sky Over Liyue
+            usages:
+              world:
+                - area: 璃月港
+                  region: 璃月
+                  condition: NIGHT
+                - area: 云来海
+                  region: 璃月
+          - number: 9
+            name: 晶莹可掇
+            nameEn: A Transparent Moon
+            credits:
+              composer: 陈致逸
+              conductor: 张洁敏
+              orchestra: 上海交响乐团
+              orchestrator: 陈致逸
+            usages:
+              world:
+                - area: 琉璃亭
+                  region: 璃月
+                - area: 新月轩
+                  region: 璃月
+          - number: 10
+            name: 北国的宝库
+            nameEn: Treasury From the Northland
+            usages:
+              world:
+                - area: 北国银行
+                  region: 璃月
+          - number: 11
+            name: 品茗尝清心
+            nameEn: Cozy Leisure Time
+          - number: 12
+            name: 美梦抚归人
+            nameEn: Sojourner's Sweet Dream
+          - number: 13
+            name: 逶迤绿水长
+            nameEn: Winding River
+          - number: 14
+            name: 轻波微荡
+            nameEn: Mild Waves
+          - number: 15
+            name: 钓客漫歌
+            nameEn: Rhythm Amidst the Reeds
+          - number: 16
+            name: 源流汇响
+            nameEn: Flows of Jade-Like Water
+          - number: 17
+            name: 幽谷多芳草
+            nameEn: Blossoms Across the Valley
+          - number: 18
+            name: 多情东逝
+            nameEn: Flow of Mildness
+          - number: 19
+            name: 山阴漫步
+            nameEn: Stroll in the Shadows
+          - number: 20
+            name: 古道笛声
+            nameEn: Melodious Flute
+          - number: 21
+            name: 清昼细雨
+            nameEn: Gentle Rain
+          - number: 22
+            name: 竹林的轻语
+            nameEn: Vague Whispers
+          - number: 23
+            name: 不复回的传说
+            nameEn: Legends Swept Away
+          - number: 24
+            name: 归客的轻歌
+            nameEn: Joy of Returning
+          - number: 25
+            name: 离原之草
+            nameEn: Loner's Departure
+          - number: 26
+            name: 原上狐鸣
+            nameEn: Foxes at Play
+          - number: 27
+            name: 怀乡的原野
+            nameEn: Plain of Nostalgia
+          - number: 28
+            name: 希望的明日
+            nameEn: Another Hopeful Tomorrow
+          - number: 29
+            name: 小小的光
+            nameEn: This Little Light of Mine
+          - number: 30
+            name: 宽怀的传说
+            nameEn: Legend of Redemption
+          - number: 31
+            name: 暧暧含光
+            nameEn: Hazy Light
+          - number: 32
+            name: 潮汐浮梦
+            nameEn: Scattered Amongst the Tides
+          - number: 33
+            name: 随海风而来
+            nameEn: Rhythms From the Conch
+      - number: 2
+        name: 山巅清心云间月
+        nameEn: Shimmering Sea of Clouds and Moonlight
+        songs: []
+      - number: 3
+        name: 璃月鏖战录
+        nameEn: Battles of Liyue
+        songs: []
+  - name: 闪耀的群星
+    nameEn: The Stellar Moments
+    releaseDate: 2021-02-04
+    discs:
+      - number: 0
+        songs: []
   - name: 漩涡、落星与冰山
     nameEn: Vortex of Legends
     releaseDate: 2021-04-12
     discs:
-      - number: 1
+      - number: 0
         songs:
           - number: 1
             name: 雪掩的往事
@@ -1167,7 +1178,7 @@ albums:
       #       name: 激流与岩壑
       #       nameEn: Roar of the Formidable
       #       songs:
-      #         - index: 1
+      #         - number: 1
       #           name: 不冻的激浪
       #           nameEn: All-Conquering Tide
       #           credits:
@@ -1178,7 +1189,7 @@ albums:
       #           usages:
       #             world:_BATTLE
       #               area: 蒙德 龙脊雪山
-      #         - index: 2
+      #         - number: 2
       #           name: 永无谢幕的演出
       #           nameEn: Never-Ending Performance
       - number: 4
@@ -1233,136 +1244,153 @@ albums:
               - 漩涡、落星与冰山/皎洁的笑颜
               - 漩涡、落星与冰山/银白的希望
               - 漩涡、落星与冰山/雪掩的往事
-  # - name: 寂远无妄之国
-  #   nameEn: Realm of Tranquil Eternity
-  #   releaseDate: 2021-09-22
-  #   discs:
-  #     - name: 稻光与雷樱的土地
-  #       nameEn: Sakura and Violet Thunder
-  #       songs: []
-  #     - name: 浮世之枯荣
-  #       nameEn: Stories of the Floating World
-  #       songs: []
-  #     - name: 稻妻征战记
-  #       nameEn: Battles of Inazuma
-  #       songs: []
-  # - name: 闪耀的群星2
-  #   nameEn: The Stellar Moments Vol. 2
-  #   releaseDate: 2022-01-26
-  #   songs: []
-  # - name: 佚落迁忘之岛
-  #   nameEn: Islands of the Lost and Forgotten
-  #   releaseDate: 2022-04-13
-  #   discs:
-  #     - name: 遗忘与冥思的岛屿
-  #       nameEn: Isles of Serenity and Amnesia
-  #       songs:
-  #         - index: 23
-  #           name: 物是人非
-  #           nameEn: When All Has Elapsed
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #         - index: 24
-  #           name: 潸怅的幽影
-  #           nameEn: Sorrows of Strays
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             shakuhachi: 顾剑楠
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #         - index: 25
-  #           name: 雾锁烟迷
-  #           nameEn: Misty Truth
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #           notes:
-  #             - 不规则拍子（7+6）
-  #         - index: 26
-  #           name: 弭节徘徊
-  #           nameEn: Wandering in the Mist
-  #           credits:
-  #             composer: 陈致逸
-  #             arranger: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #           notes:
-  #             - 氛围音乐
-  #         - index: 27
-  #           name: 曲径探幽
-  #           nameEn: Walking a Pathless Path
-  #           credits:
-  #             composer: 陈致逸
-  #             arranger: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #           notes:
-  #             - 在《弭节徘徊》的基础上加入了钢琴
-  #           related:
-  #             - 弭节徘徊
-  #         - index: 28
-  #           name: 褪淡的余忆
-  #           nameEn: Fading Memories
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #         - index: 29
-  #           name: 温情的遥忆
-  #           nameEn: A Memorable Fancy
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             piano: 陈致逸
-  #           usages:
-  #             world:
-  #               area: 稻妻 鹤观
-  #           notes:
-  #             - 《阿瑠的歌》纯音乐版本，和弦有差别
-  #           related:
-  #             - 阿瑠的歌
-  #         - index: 30
-  #           name: 阿瑠的歌
-  #           nameEn: Ruu's Melody
-  #           credits:
-  #             composer: 陈致逸
-  #             orchestra: 龙之艺交响乐团
-  #             orchestrator: 陈致逸
-  #             voice: 林禾
-  #             piano: 陈致逸
-  #           usages:
-  #             - type: DIALOG
-  #               quest: 世界任务 雾海纪行 日轮与菅名山
-  #           notes:
-  #             - 童声演唱
-  #     - name: 海渊之下
-  #       nameEn: Beneath the Abyssal Depth
-  #       songs: []
-  #     - name: 稻妻征战记2
-  #       nameEn: Battles of Inazuma 2
-  #       songs: []
+  - name: 寂远无妄之国
+    nameEn: Realm of Tranquil Eternity
+    releaseDate: 2021-09-22
+    discs:
+      - number: 1
+        name: 稻光与雷樱的土地
+        nameEn: Sakura and Violet Thunder
+        songs: []
+      - number: 2
+        name: 浮世之枯荣
+        nameEn: Stories of the Floating World
+        songs: []
+      - number: 3
+        name: 稻妻征战记
+        nameEn: Battles of Inazuma
+        songs: []
+  - name: 闪耀的群星2
+    nameEn: The Stellar Moments Vol. 2
+    releaseDate: 2022-01-26
+    discs:
+      - number: 0
+        songs: []
+  - name: 佚落迁忘之岛
+    nameEn: Islands of the Lost and Forgotten
+    releaseDate: 2022-04-13
+    discs:
+      - number: 1
+        name: 遗忘与冥思的岛屿
+        nameEn: Isles of Serenity and Amnesia
+        songs:
+          - number: 23
+            name: 物是人非
+            nameEn: When All Has Elapsed
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+          - number: 24
+            name: 潸怅的幽影
+            nameEn: Sorrows of Strays
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              shakuhachi: 顾剑楠
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+          - number: 25
+            name: 雾锁烟迷
+            nameEn: Misty Truth
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+            notes:
+              - 不规则拍子（7+6）
+          - number: 26
+            name: 弭节徘徊
+            nameEn: Wandering in the Mist
+            credits:
+              composer: 陈致逸
+              arranger: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+            notes:
+              - 氛围音乐
+          - number: 27
+            name: 曲径探幽
+            nameEn: Walking a Pathless Path
+            credits:
+              composer: 陈致逸
+              arranger: 陈致逸
+              piano: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+            notes:
+              - 在《弭节徘徊》的基础上加入了钢琴
+            related:
+              - 弭节徘徊
+          - number: 28
+            name: 褪淡的余忆
+            nameEn: Fading Memories
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+          - number: 29
+            name: 温情的遥忆
+            nameEn: A Memorable Fancy
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              piano: 陈致逸
+            usages:
+              world:
+                - area: 鹤观
+                  region: 稻妻
+            notes:
+              - 《阿瑠的歌》纯音乐版本，和弦有差别
+            related:
+              - 阿瑠的歌
+          - number: 30
+            name: 阿瑠的歌
+            nameEn: Ruu's Melody
+            credits:
+              composer: 陈致逸
+              orchestra: 龙之艺交响乐团
+              orchestrator: 陈致逸
+              voice: 林禾
+              piano: 陈致逸
+            usages:
+              quest:
+                - type: WORLD
+                  chapter: 雾海纪行
+                  act: 日轮与菅名山
+            notes:
+              - 童声演唱
+      - number: 2
+        name: 海渊之下
+        nameEn: Beneath the Abyssal Depth
+        songs: []
+      - number: 3
+        name: 稻妻征战记2
+        nameEn: Battles of Inazuma 2
+        songs: []
   - name: 千岩旷望
     nameEn: Millelith's Watch
     releaseDate: 2022-06-22
@@ -2331,24 +2359,27 @@ albums:
                   condition: COMBAT
             links:
               necId: 1956543025
-  # - name: 珍珠之歌2
-  #   nameEn: The Shimmering Voyage Vol. 2
-  #   releaseDate: 2022-08-15
-  #   discs:
-  #     - name: 幻世浮生
-  #       nameEn: A Vagrant Breeze
-  #       songs: []
-  #     - name: 海岛奇想曲
-  #       nameEn: Fantasia of the Isles
-  #       songs: []
-  #     - name: 世路风波
-  #       nameEn: A Turbulent Peregrination
-  #       songs: []
+  - name: 珍珠之歌2
+    nameEn: The Shimmering Voyage Vol. 2
+    releaseDate: 2022-08-15
+    discs:
+      - number: 1
+        name: 幻世浮生
+        nameEn: A Vagrant Breeze
+        songs: []
+      - number: 2
+        name: 海岛奇想曲
+        nameEn: Fantasia of the Isles
+        songs: []
+      - number: 3
+        name: 世路风波
+        nameEn: A Turbulent Peregrination
+        songs: []
   - name: 流星的轨迹
     nameEn: Footprints of the Traveler
     releaseDate: 2022-09-20
     discs:
-      - number: 1
+      - number: 0
         songs:
           - number: 6
             name: 盛夏！海岛？大冒险！
@@ -2375,52 +2406,64 @@ albums:
               - 珍珠之歌/希望的航程
               - 珍珠之歌/谨慎的探索
               - 闪耀的群星2/荒波椛叶
-  # - name: 智妙明论之林
-  #   nameEn: Forest of Jnana and Vidya
-  #   releaseDate: 2022-10-20
-  #   discs:
-  #     - name: 掩冉众叶的居所
-  #       nameEn: Dwelling Where Everlasting Spring Abide
-  #       songs: []
-  #     - name: 奥秘栖隐的林泽
-  #       nameEn: Woods, Rivers and Mysteries
-  #       songs: []
-  #     - name: 死生流转真如
-  #       nameEn: Eternal Antagonism Between Life and Death
-  #       songs: []
-  #     - name: 须弥斗战篇
-  #       nameEn: Battles of Sumeru
-  #       songs: []
-  # - name: 闪耀的群星3
-  #   nameEn: The Stellar Moments Vol. 3
-  #   releaseDate: 2023-01-10
-  #   songs: []
-  # - name: 啁哳流变之砂
-  #   nameEn: The Unfathomable Sand Dunes
-  #   releaseDate: 2023-04-19
-  #   discs:
-  #     - name: 风沙往事
-  #       nameEn: Sandstorm Remembrances
-  #       songs: []
-  #     - name: 沙海的离民
-  #       nameEn: Desert Exodus
-  #       songs: []
-  #     - name: 须弥斗战篇2
-  #       nameEn: Battles of Sumeru 2
-  #       songs: []
-  # - name: 珍珠之歌3
-  #   nameEn: The Shimmering Voyage Vol. 3
-  #   releaseDate: 2023-07-26
-  #   discs:
-  #     - name: 欢游，或流幻的梦景
-  #       nameEn: La liesse, ou le fluide mirage des songes
-  #       songs: []
-  #     - name: 世智诸相
-  #       nameEn: Tathya-Samvrti
-  #       songs: []
-  #     - name: 遐籁的轶诗
-  #       nameEn: Anecdotes of Reverie
-  #       songs: []
+  - name: 智妙明论之林
+    nameEn: Forest of Jnana and Vidya
+    releaseDate: 2022-10-20
+    discs:
+      - number: 1
+        name: 掩冉众叶的居所
+        nameEn: Dwelling Where Everlasting Spring Abide
+        songs: []
+      - number: 2
+        name: 奥秘栖隐的林泽
+        nameEn: Woods, Rivers and Mysteries
+        songs: []
+      - number: 3
+        name: 死生流转真如
+        nameEn: Eternal Antagonism Between Life and Death
+        songs: []
+      - number: 4
+        name: 须弥斗战篇
+        nameEn: Battles of Sumeru
+        songs: []
+  - name: 闪耀的群星3
+    nameEn: The Stellar Moments Vol. 3
+    releaseDate: 2023-01-10
+    discs:
+      - number: 0
+        songs: []
+  - name: 啁哳流变之砂
+    nameEn: The Unfathomable Sand Dunes
+    releaseDate: 2023-04-19
+    discs:
+      - number: 1
+        name: 风沙往事
+        nameEn: Sandstorm Remembrances
+        songs: []
+      - number: 2
+        name: 沙海的离民
+        nameEn: Desert Exodus
+        songs: []
+      - number: 3
+        name: 须弥斗战篇2
+        nameEn: Battles of Sumeru 2
+        songs: []
+  - name: 珍珠之歌3
+    nameEn: The Shimmering Voyage Vol. 3
+    releaseDate: 2023-07-26
+    discs:
+      - number: 1
+        name: 欢游，或流幻的梦景
+        nameEn: La liesse, ou le fluide mirage des songes
+        songs: []
+      - number: 2
+        name: 世智诸相
+        nameEn: Tathya-Samvrti
+        songs: []
+      - number: 3
+        name: 遐籁的轶诗
+        nameEn: Anecdotes of Reverie
+        songs: []
   - name: 白露澈明之泉
     nameEn: Fountain of Belleau
     releaseDate: 2023-10-02
@@ -2472,26 +2515,25 @@ albums:
       - number: 1
         name: 她曾见的众水
         nameEn: Les grandes eaux qu'elle avait veillees
-        songs: []
-        # - number: 1
-        #   name: 煦风染细浪
-        #   nameEn: Mellow Alize
-        #   credits:
-        #     composer: 王予曦 Yuxi Wang (HOYO-MiX)
-        #     编曲 Arranger: 王予曦 Yuxi Wang (HOYO-MiX)
-        #     乐队 Orchestra: Budapest Scoring Orchestra / 龙之艺交响乐团 Art of Loong Orchestra
-        #     手风琴 Accordion: 许笑男 Xiaonan Xu
-        #     曼陀林 Mandolin: 范晔 Ye Fan
-        #     小提琴 Violin: 金于城 Yucheng Jin
-        #     录音棚 Recording Studio: Budapest Scoring / 上海广播大厦 Shanghai Media Group / 九紫天诚录音棚 SKY FIRE STUDIO / ５２Hz Studio
-        #     录音师 Recording Engineer: Viktor Szabó / 莫家伟 Jiawei Mo / 刘婉秋 Wanqiu Liu / 黄巍 Zach Huang
-        #     混音师 Mixing Engineer: 阿烈 A Lie
-        #     母带制作 Mastering Engineer: 黄巍 Zach Huang
-        #     出品 Produced by: HOYO-MiX
-        #   usages:
-        #     world:
-        #       - region: 枫丹
-
+        songs:
+          - number: 1
+            name: 煦风染细浪
+            nameEn: Mellow Alize
+            credits:
+              composer: 王予曦 Yuxi Wang (HOYO-MiX)
+              编曲 Arranger: 王予曦 Yuxi Wang (HOYO-MiX)
+              乐队 Orchestra: Budapest Scoring Orchestra / 龙之艺交响乐团 Art of Loong Orchestra
+              手风琴 Accordion: 许笑男 Xiaonan Xu
+              曼陀林 Mandolin: 范晔 Ye Fan
+              小提琴 Violin: 金于城 Yucheng Jin
+              录音棚 Recording Studio: Budapest Scoring / 上海广播大厦 Shanghai Media Group / 九紫天诚录音棚 SKY FIRE STUDIO / ５２Hz Studio
+              录音师 Recording Engineer: Viktor Szabó / 莫家伟 Jiawei Mo / 刘婉秋 Wanqiu Liu / 黄巍 Zach Huang
+              混音师 Mixing Engineer: 阿烈 A Lie
+              母带制作 Mastering Engineer: 黄巍 Zach Huang
+              出品 Produced by: HOYO-MiX
+            usages:
+              world:
+                - region: 枫丹
       - number: 2
         name: 黄铜与锻铁的节律
         nameEn: Galliard of Brass and Iron
@@ -2501,43 +2543,49 @@ albums:
         nameEn: Ad Consummationem Aquarum
         songs: []
 
-  # - name: 「飞彩镌流年」游戏原声EP专辑
-  #   nameEn: ""
-  #   releaseDate: 2022-01-15
-  #   songs:
-  #     - index: 1
-  #       name: 神女劈观·唤情
-  #       nameEn: Devastation and Redemption
-  #       credits:
-  #         composer: 陈致逸
-  #         lyricist: 豆子
-  #         arranger: 苑迪萌
-  #         vocalArtist: 杨扬
-  #         erhu: 马稼骏
-  #         guzheng: 王宇宸
-  #         electricGuitar: 苑迪萌
-  #         orchestra: 龙之艺交响乐团
-  #       usages:
-  #         - type: VIDEO
-  #           videoType: CG
-  #           quest: 魔神任务 间章 第一幕 风起鹤归
-  # - name: 「轻涟」游戏原声EP专辑
-  #   nameEn: ""
-  #   releaseDate: 2023-11-13
-  #   songs:
-  #     - index: 1
-  #       name: 轻涟
-  #       nameEn: La vaguelette
-  #       credits:
-  #         lyricist: [哈尼, 顶柳, 三宝]
-  #         composer: 苑迪萌
-  #         arranger: 苑迪萌
-  #         vocalArtist: Cécilia Cara
-  #         acousticGuitar: 尤裴佳
-  #         electricGuitar: 苑迪萌
-  #         choir: [唐卫青, 何晓楠, 张怡, 柴锦斐, 汤琳, 陈瑞, 喻佳星, 王碧华]
-  #         orchestra: 龙之艺交响乐团
-  #       usages:
-  #         - type: VIDEO
-  #           videoType: CG
-  #           quest: 传说任务 司颂之章 第一幕 「水的女儿」
+  - name: 「飞彩镌流年」游戏原声EP专辑
+    nameEn: ''
+    releaseDate: 2022-01-15
+    discs:
+      - number: 0
+        songs:
+          - number: 1
+            name: 神女劈观·唤情
+            nameEn: Devastation and Redemption
+            credits:
+              composer: 陈致逸
+              lyricist: 豆子
+              arranger: 苑迪萌
+              vocalArtist: 杨扬
+              erhu: 马稼骏
+              guzheng: 王宇宸
+              electricGuitar: 苑迪萌
+              orchestra: 龙之艺交响乐团
+            usages:
+              quest:
+                - type: ARCHON
+                  chapter: 间章
+                  act: 第一幕 风起鹤归
+  - name: 「轻涟」游戏原声EP专辑
+    nameEn: ''
+    releaseDate: 2023-11-13
+    discs:
+      - number: 0
+        songs:
+          - number: 1
+            name: 轻涟
+            nameEn: La vaguelette
+            credits:
+              lyricist: [哈尼, 顶柳, 三宝]
+              composer: 苑迪萌
+              arranger: 苑迪萌
+              vocalArtist: Cécilia Cara
+              acousticGuitar: 尤裴佳
+              electricGuitar: 苑迪萌
+              choir: [唐卫青, 何晓楠, 张怡, 柴锦斐, 汤琳, 陈瑞, 喻佳星, 王碧华]
+              orchestra: 龙之艺交响乐团
+            usages:
+              quest:
+                - type: STORY
+                  chapter: 司颂之章
+                  act: 第一幕 「水的女儿」
