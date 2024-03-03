@@ -1,0 +1,380 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Data",
+  "definitions": {
+    "Data": {
+      "type": "object",
+      "properties": {
+        "albums": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GenshinImpactOSTAlbum"
+          }
+        }
+      },
+      "required": [
+        "albums"
+      ],
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTAlbum": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "releaseDate": {
+          "type": "string"
+        },
+        "discs": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GenshinImpactOSTSingleDisc"
+              },
+              "minItems": 1,
+              "maxItems": 1
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GenshinImpactOSTDisc"
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "nameEn",
+        "releaseDate",
+        "discs"
+      ],
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTSingleDisc": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number",
+          "const": 1
+        },
+        "songs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GenshinImpactOSTSong"
+          }
+        }
+      },
+      "required": [
+        "number",
+        "songs"
+      ],
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTSong": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "credits": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCredits"
+        },
+        "usages": {
+          "$ref": "#/definitions/GenshinImpactOSTSongUsages"
+        },
+        "links": {
+          "$ref": "#/definitions/GenshinImpactOSTSongLinks"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "number",
+        "name",
+        "nameEn",
+        "credits",
+        "usages",
+        "links"
+      ],
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTSongCredits": {
+      "type": "object",
+      "properties": {
+        "composer": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        },
+        "lyricist": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        },
+        "arranger": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        },
+        "conductor": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        },
+        "orchestra": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        },
+        "orchestrator": {
+          "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+        }
+      },
+      "required": [
+        "composer"
+      ],
+      "additionalProperties": {
+        "$ref": "#/definitions/GenshinImpactOSTSongCreditStaff"
+      }
+    },
+    "GenshinImpactOSTSongCreditStaff": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "GenshinImpactOSTSongUsages": {
+      "type": "object",
+      "properties": {
+        "world": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "location": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "area": {
+                "type": "string"
+              },
+              "region": {
+                "type": "string"
+              },
+              "condition": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "const": "DAY"
+                  },
+                  {
+                    "type": "string",
+                    "const": "NIGHT"
+                  },
+                  {
+                    "type": "string",
+                    "const": "RAIN"
+                  },
+                  {
+                    "type": "string",
+                    "const": "COMBAT"
+                  },
+                  {
+                    "type": "string",
+                    "const": "WAVERIDER"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "DAY",
+                        "NIGHT",
+                        "RAIN",
+                        "COMBAT",
+                        "WAVERIDER"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "required": [
+              "region"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "domain": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "domain": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "CHALLENGE",
+                  "TROUNCE",
+                  "ONE-TIME",
+                  "ABYSS",
+                  "QUEST",
+                  "EVENT"
+                ]
+              },
+              "condition": {
+                "type": "string",
+                "const": "COMBAT"
+              }
+            },
+            "required": [
+              "domain",
+              "type"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "quest": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "ARCHON",
+                  "STORY",
+                  "EVENT"
+                ]
+              },
+              "chapter": {
+                "type": "string"
+              },
+              "act": {
+                "type": "string"
+              },
+              "part": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "chapter",
+              "act"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "spincrystal": {
+          "type": "number"
+        },
+        "special": {
+          "type": "string"
+        },
+        "video": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "bilibiliBv": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "bilibiliBv"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTSongLinks": {
+      "type": "object",
+      "properties": {
+        "qqId": {
+          "type": "string"
+        },
+        "necId": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "GenshinImpactOSTDisc": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "songs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GenshinImpactOSTSong"
+          }
+        }
+      },
+      "required": [
+        "number",
+        "name",
+        "nameEn",
+        "songs"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

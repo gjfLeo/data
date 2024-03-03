@@ -1,4 +1,4 @@
-export interface GenshinImpactOSTData {
+export interface Data {
   albums: GenshinImpactOSTAlbum[];
 }
 
@@ -6,10 +6,11 @@ interface GenshinImpactOSTAlbum {
   name: string;
   nameEn: string;
   releaseDate: string;
-  discs: GenshinImpactOSTSingleDisc | GenshinImpactOSTDisc[];
+  discs: [GenshinImpactOSTSingleDisc] | GenshinImpactOSTDisc[];
 }
 
 interface GenshinImpactOSTSingleDisc {
+  number: 1;
   songs: GenshinImpactOSTSong[];
 }
 interface GenshinImpactOSTDisc {
@@ -30,14 +31,18 @@ interface GenshinImpactOSTSong {
   related?: string[];
 }
 
-type MaybeArray<T> = T | T[];
+interface GenshinImpactOSTSongLinks {
+  qqId?: string;
+  necId?: number;
+}
+
 
 interface GenshinImpactOSTSongUsages {
   world?: {
     location?: string | string[];
     area?: string;
     region: string;
-    condition?: MaybeArray<"DAY" | "NIGHT" | "RAIN" | "COMBAT" | "WAVERIDER">;
+    condition?: ("DAY" | "NIGHT" | "RAIN" | "COMBAT" | "WAVERIDER") | ("DAY" | "NIGHT" | "RAIN" | "COMBAT" | "WAVERIDER")[];
   }[];
   domain?: {
     domain: string;
@@ -60,24 +65,20 @@ interface GenshinImpactOSTSongUsages {
 
 interface GenshinImpactOSTSongCredits {
   /** 作曲 */
-  composer?: GenshinImpactOSTSongCreditStaff;
+  composer: GenshinImpactOSTSongCreditStaff;
   /** 作词 */
   lyricist?: GenshinImpactOSTSongCreditStaff;
   /** 编曲 */
   arranger?: GenshinImpactOSTSongCreditStaff;
 
   /** 指挥 */
-  conductor?: string;
+  conductor?: GenshinImpactOSTSongCreditStaff;
   /** 乐队 */
-  orchestra?: string;
+  orchestra?: GenshinImpactOSTSongCreditStaff;
   /** 乐队配器 */
-  orchestrator?: string;
+  orchestrator?: GenshinImpactOSTSongCreditStaff;
 
   [k: string]: GenshinImpactOSTSongCreditStaff;
 }
 type GenshinImpactOSTSongCreditStaff = string | string[];
 
-interface GenshinImpactOSTSongLinks {
-  qqId?: string;
-  necId?: number;
-}
