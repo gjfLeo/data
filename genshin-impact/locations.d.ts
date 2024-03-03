@@ -1,6 +1,4 @@
-export interface Data {
-  locations: Location[];
-}
+export type Data = Location[];
 
 interface Location {
   name?: string;

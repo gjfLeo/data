@@ -1,243 +1,242 @@
 # yaml-language-server: $schema=./locations.schema.json
-locations:
-  - name: 蒙德
-    nameEn: Mondstadt
-    level: 1
-    children:
-      - level: 2
-        children:
-          - name: 坠星山谷
-            nameEn: Starfall Valley
-            level: 3
-          - name: 明冠山地
-            nameEn: Brightcrown Mountains
-            level: 3
-            children:
-              - name: 明冠峡
-                nameEn: Brightcrown Canyon
-                level: 4
-              - name: 风龙废墟
-                nameEn: Stormterror's Lair
-                level: 4
-          - name: 苍风高地
-            nameEn: Windwail Highland
-            level: 3
-          - name: 风啸山坡
-            nameEn: Galesong Hill
-            level: 3
-      - level: 2
-        children:
-          - name: 龙脊雪山
-            nameEn: Dragonspine
-            level: 3
-  - name: 璃月
-    nameEn: Liyue
-    level: 1
-    children:
-      - level: 2
-        children:
-          - name: 碧水原
-            nameEn: Bishui Plain
-            level: 3
-          - name: 琼玑野
-            nameEn: Qiongji Estuary
-            level: 3
-          - name: 珉林
-            nameEn: Minlin
-            level: 3
-          - name: 云来海
-            nameEn: Sea of Clouds
-            level: 3
-          - name: 璃沙郊
-            nameEn: Lisha
-            level: 3
-      - name: 层岩巨渊
-        nameEn: The Chasm
-        level: 2
-        children:
-          - name: 层岩巨渊
-            nameEn: The Chasm
-            level: 3
-          - name: 层岩巨渊·地下矿区
-            nameEn: 'The Chasm: Underground Mines'
-            level: 3
-      - name: 沉玉谷
-        nameEn: Chenyu Vale
-        level: 2
-        children:
-          - name: 沉玉谷·上谷
-            nameEn: 'Chenyu Vale: Upper Vale'
-            level: 3
-            children:
-              - name: 翘英庄
-                nameEn: Qiaoying Village
-                level: 4
-              - name: 遗珑埠
-                nameEn: Yilong Wharf
-                level: 4
-              - name: 宝玦口
-                nameEn: Jademouth
-                level: 4
-              - name: 暝垣山
-                nameEn: Mt. Mingyuan
-                level: 4
-              - name: 沉珑渊
-                nameEn: Chenlong Cleft
-                level: 4
-              - name: 灵濛山
-                nameEn: Mt. Lingmeng
-                level: 4
-          - name: 沉玉谷·南陵
-            nameEn: 'Chenyu Vale: Southern Mountain'
-            level: 3
-            children:
-              - name: 古茶树坡
-                nameEn: Teatree Slope
-                level: 4
-              - name: 药蝶谷
-                nameEn: Yaodie Valley
-                level: 4
-              - name: 赤璋城垣
-                nameEn: Chizhang Wall
-                level: 4
-              - name: 悬练山
-                nameEn: Mt. Xuanlian
-                level: 4
-              - name: 灵枢庭
-                nameEn: Lingshu Courtyard
-                level: 4
-              - name: 伏仙洞
-                nameEn: Adeptus's Repose
-                level: 4
-          - name: 来歆山
-            nameEn: Mt. Laixin
-            level: 3
-            children:
-              - name: 赤望台
-                nameEn: Chiwang Terrace
-                level: 4
-              - name: 锦落庭
-                nameEn: Carp's Rest
-                level: 4
-  - name: 稻妻
-    nameEn: Inazuma
-    level: 1
-    children:
-      - level: 2
-        children:
-          - name: 鸣神岛
-            nameEn: Narukami Island
-            level: 3
-          - name: 神无冢
-            nameEn: Kannazuka
-            level: 3
-          - name: 八酝岛
-            nameEn: Yashiori Island
-            level: 3
-          - name: 海祇岛
-            nameEn: Watatsumi Island
-            level: 3
-          - name: 清籁岛
-            nameEn: Seirai Island
-            level: 3
-          - name: 鹤观
-            nameEn: Tsurumi Island
-            level: 3
-      - level: 2
-        children:
-          - name: 渊下宫
-            nameEn: Enkanomiya
-            level: 3
-  - name: 须弥
-    nameEn: Sumeru
-    level: 1
-    children:
-      - name: 诸法丛林
-        nameEn: Dharma Forest
-        level: 2
-        children:
-          - name: 道成林
-            nameEn: Avidya Forest
-            level: 3
-          - name: 护世森
-            nameEn: Lokapala Jungle
-            level: 3
-          - name: 二净甸
-            nameEn: Vissudha Field
-            level: 3
-          - name: 善见地
-            nameEn: Ashavan Realm
-            level: 3
-          - name: 阿陀河谷
-            nameEn: Ardravi Valley
-            level: 3
-          - name: 桓那兰那
-            nameEn: Vanarana
-            level: 3
-          - name: 失落的苗圃
-            nameEn: Lost Nursery
-            level: 3
-      - name: 大赤沙海
-        nameEn: Great Red Sand
-        level: 2
-        children:
-          - name: 下风蚀地
-            nameEn: Land of Lower Setekh
-            level: 3
-          - name: 上风蚀地
-            nameEn: Land of Upper Setekh
-            level: 3
-          - name: 列柱沙原
-            nameEn: Hypostyle Desert
-            level: 3
-          - name: 千壑沙地
-            nameEn: Desert of Hadramaveth
-            level: 3
-      - name: 苍漠囿土
-        nameEn: Girdle of the Sands
-        level: 2
-        children:
-          - name: 荒石苍漠
-            nameEn: Gavireh Lajavard
-            level: 3
-          - name: 浮罗囿
-            nameEn: Realm of Farakhkert
-            level: 3
-  - name: 枫丹
-    nameEn: Fontaine
-    level: 1
-    children:
-      - level: 2
-        children:
-          - name: 枫丹廷区
-            nameEn: Court of Fontaine Region
-            level: 3
-          - name: 白露区
-            nameEn: Belleau Region
-            level: 3
-          - name: 苍晶区
-            nameEn: Beryl Region
-            level: 3
-      - level: 2
-        children:
-          - name: 黎翡区
-            nameEn: Liffey Region
-            level: 3
-          - name: 枫丹动能工程科学研究院区
-            nameEn: Fontaine Research Institute of Kinetic Energy Engineering Region
-            level: 3
-      - level: 2
-        children:
-          - name: 伊黎耶林区
-            nameEn: Erinnyes Forest
-            level: 3
-          - name: 莫尔泰区
-            nameEn: Morte Region
-            level: 3
+- name: 蒙德
+  nameEn: Mondstadt
+  level: 1
+  children:
+    - level: 2
+      children:
+        - name: 坠星山谷
+          nameEn: Starfall Valley
+          level: 3
+        - name: 明冠山地
+          nameEn: Brightcrown Mountains
+          level: 3
+          children:
+            - name: 明冠峡
+              nameEn: Brightcrown Canyon
+              level: 4
+            - name: 风龙废墟
+              nameEn: Stormterror's Lair
+              level: 4
+        - name: 苍风高地
+          nameEn: Windwail Highland
+          level: 3
+        - name: 风啸山坡
+          nameEn: Galesong Hill
+          level: 3
+    - level: 2
+      children:
+        - name: 龙脊雪山
+          nameEn: Dragonspine
+          level: 3
+- name: 璃月
+  nameEn: Liyue
+  level: 1
+  children:
+    - level: 2
+      children:
+        - name: 碧水原
+          nameEn: Bishui Plain
+          level: 3
+        - name: 琼玑野
+          nameEn: Qiongji Estuary
+          level: 3
+        - name: 珉林
+          nameEn: Minlin
+          level: 3
+        - name: 云来海
+          nameEn: Sea of Clouds
+          level: 3
+        - name: 璃沙郊
+          nameEn: Lisha
+          level: 3
+    - name: 层岩巨渊
+      nameEn: The Chasm
+      level: 2
+      children:
+        - name: 层岩巨渊
+          nameEn: The Chasm
+          level: 3
+        - name: 层岩巨渊·地下矿区
+          nameEn: 'The Chasm: Underground Mines'
+          level: 3
+    - name: 沉玉谷
+      nameEn: Chenyu Vale
+      level: 2
+      children:
+        - name: 沉玉谷·上谷
+          nameEn: 'Chenyu Vale: Upper Vale'
+          level: 3
+          children:
+            - name: 翘英庄
+              nameEn: Qiaoying Village
+              level: 4
+            - name: 遗珑埠
+              nameEn: Yilong Wharf
+              level: 4
+            - name: 宝玦口
+              nameEn: Jademouth
+              level: 4
+            - name: 暝垣山
+              nameEn: Mt. Mingyuan
+              level: 4
+            - name: 沉珑渊
+              nameEn: Chenlong Cleft
+              level: 4
+            - name: 灵濛山
+              nameEn: Mt. Lingmeng
+              level: 4
+        - name: 沉玉谷·南陵
+          nameEn: 'Chenyu Vale: Southern Mountain'
+          level: 3
+          children:
+            - name: 古茶树坡
+              nameEn: Teatree Slope
+              level: 4
+            - name: 药蝶谷
+              nameEn: Yaodie Valley
+              level: 4
+            - name: 赤璋城垣
+              nameEn: Chizhang Wall
+              level: 4
+            - name: 悬练山
+              nameEn: Mt. Xuanlian
+              level: 4
+            - name: 灵枢庭
+              nameEn: Lingshu Courtyard
+              level: 4
+            - name: 伏仙洞
+              nameEn: Adeptus's Repose
+              level: 4
+        - name: 来歆山
+          nameEn: Mt. Laixin
+          level: 3
+          children:
+            - name: 赤望台
+              nameEn: Chiwang Terrace
+              level: 4
+            - name: 锦落庭
+              nameEn: Carp's Rest
+              level: 4
+- name: 稻妻
+  nameEn: Inazuma
+  level: 1
+  children:
+    - level: 2
+      children:
+        - name: 鸣神岛
+          nameEn: Narukami Island
+          level: 3
+        - name: 神无冢
+          nameEn: Kannazuka
+          level: 3
+        - name: 八酝岛
+          nameEn: Yashiori Island
+          level: 3
+        - name: 海祇岛
+          nameEn: Watatsumi Island
+          level: 3
+        - name: 清籁岛
+          nameEn: Seirai Island
+          level: 3
+        - name: 鹤观
+          nameEn: Tsurumi Island
+          level: 3
+    - level: 2
+      children:
+        - name: 渊下宫
+          nameEn: Enkanomiya
+          level: 3
+- name: 须弥
+  nameEn: Sumeru
+  level: 1
+  children:
+    - name: 诸法丛林
+      nameEn: Dharma Forest
+      level: 2
+      children:
+        - name: 道成林
+          nameEn: Avidya Forest
+          level: 3
+        - name: 护世森
+          nameEn: Lokapala Jungle
+          level: 3
+        - name: 二净甸
+          nameEn: Vissudha Field
+          level: 3
+        - name: 善见地
+          nameEn: Ashavan Realm
+          level: 3
+        - name: 阿陀河谷
+          nameEn: Ardravi Valley
+          level: 3
+        - name: 桓那兰那
+          nameEn: Vanarana
+          level: 3
+        - name: 失落的苗圃
+          nameEn: Lost Nursery
+          level: 3
+    - name: 大赤沙海
+      nameEn: Great Red Sand
+      level: 2
+      children:
+        - name: 下风蚀地
+          nameEn: Land of Lower Setekh
+          level: 3
+        - name: 上风蚀地
+          nameEn: Land of Upper Setekh
+          level: 3
+        - name: 列柱沙原
+          nameEn: Hypostyle Desert
+          level: 3
+        - name: 千壑沙地
+          nameEn: Desert of Hadramaveth
+          level: 3
+    - name: 苍漠囿土
+      nameEn: Girdle of the Sands
+      level: 2
+      children:
+        - name: 荒石苍漠
+          nameEn: Gavireh Lajavard
+          level: 3
+        - name: 浮罗囿
+          nameEn: Realm of Farakhkert
+          level: 3
+- name: 枫丹
+  nameEn: Fontaine
+  level: 1
+  children:
+    - level: 2
+      children:
+        - name: 枫丹廷区
+          nameEn: Court of Fontaine Region
+          level: 3
+        - name: 白露区
+          nameEn: Belleau Region
+          level: 3
+        - name: 苍晶区
+          nameEn: Beryl Region
+          level: 3
+    - level: 2
+      children:
+        - name: 黎翡区
+          nameEn: Liffey Region
+          level: 3
+        - name: 枫丹动能工程科学研究院区
+          nameEn: Fontaine Research Institute of Kinetic Energy Engineering Region
+          level: 3
+    - level: 2
+      children:
+        - name: 伊黎耶林区
+          nameEn: Erinnyes Forest
+          level: 3
+        - name: 莫尔泰区
+          nameEn: Morte Region
+          level: 3
 
-  - name: 金苹果群岛
-    nameEn: Golden Apple Archipelago
-    level: 1
-  - name: 琉形蜃境
-    nameEn: Veluriyam Mirage
-    level: 1
+- name: 金苹果群岛
+  nameEn: Golden Apple Archipelago
+  level: 1
+- name: 琉形蜃境
+  nameEn: Veluriyam Mirage
+  level: 1

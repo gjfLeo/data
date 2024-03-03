@@ -3,19 +3,10 @@
   "$ref": "#/definitions/Data",
   "definitions": {
     "Data": {
-      "type": "object",
-      "properties": {
-        "locations": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Location"
-          }
-        }
-      },
-      "required": [
-        "locations"
-      ],
-      "additionalProperties": false
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Location"
+      }
     },
     "Location": {
       "type": "object",
