@@ -5,15 +5,95 @@
     "Data": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/Location"
+        "$ref": "#/definitions/Region"
       }
     },
-    "Location": {
+    "Region": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number",
+          "const": 1
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Subregion"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "nameEn",
+        "level"
+      ],
+      "additionalProperties": false
+    },
+    "Subregion": {
       "type": "object",
       "properties": {
         "index": {
           "type": "number"
         },
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number",
+          "const": 2
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Area"
+          }
+        }
+      },
+      "required": [
+        "index",
+        "level"
+      ],
+      "additionalProperties": false
+    },
+    "Area": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number",
+          "const": 3
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "nameEn",
+        "level"
+      ],
+      "additionalProperties": false
+    },
+    "Location": {
+      "type": "object",
+      "properties": {
         "name": {
           "type": "string"
         },
@@ -31,6 +111,8 @@
         }
       },
       "required": [
+        "name",
+        "nameEn",
         "level"
       ],
       "additionalProperties": false
